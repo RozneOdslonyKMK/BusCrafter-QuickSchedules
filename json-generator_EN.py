@@ -271,7 +271,7 @@ with open("3.json", "w", encoding="utf-8") as f:                                
 # --- COMMENT / UNCOMMENT SECTION BELOW ---
 
 # json_powszednie = generate_line_json("3", day_mode="weekdays", custom_times=TRAVEL_TIME)          # change "3" for any line number you want
-# with open("3_dp.json", "w", encoding="utf-8") as f:                                               # change "3_sś" for any line number + "_dp" (for easy name for weekdays) you want
+# with open("3_dp.json", "w", encoding="utf-8") as f:                                               # change "3_dp" for any line number + "_dp" (for easy name for weekdays) you want
 #     json.dump(json_powszednie, f, ensure_ascii=False, indent=4)
 
 # ---  COMMENT / UNCOMMENT SECTION END  ---
