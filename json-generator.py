@@ -220,7 +220,7 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
     output_json = {
         "line-config": {
             "line": str(line_number),
-            "line-type": "",
+            "line-type": "",                        # You can write here "Aglomeracyjna" for 2xx/3xx/9xx lines or "Czasowa" for 7x/7xx lines or "Specjalna" for LRx and museum lines or "Tramwajowa" / "Autobusowa" for WOŚP lines
             "line-operator": "MPK S.A. w Krakowie", # You can change "MPK S.A. w Krakowie" to "Mobilis sp. z o.o." for GTFS_KRK_M package or to "MPK Kraków" or "Mobilis" for to-2015 and to-2022 styles.
             "is-route-changed": False
         },
