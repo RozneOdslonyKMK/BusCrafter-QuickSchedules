@@ -707,11 +707,11 @@
         OS. PODWAWELSKIE - Barska, Konopnickiej, al. Krasińskiego, Piłsudskiego, Podwale, Basztowa, Lubicz, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Ułanów, Meissnera - TAURON ARENA KRAKÓW WIECZYSTA
         TAURON ARENA KRAKÓW WIECZYSTA - Meissnera, Pilotów, Łukasiewicza, al. Beliny-Prażmowskiego, Lubicz, Basztowa, Dunajewskiego, Piłsudskiego, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
     od 06.06.2026
-        OS. PODWAWELSKIE - Barska, Konopnickiej, al. Krasińskiego, al. Mickiewicza, Karmelicka, Garbarska, Basztowa, Lubicz, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Ułanów, Meissnera - TAURON Arena Kraków Wieczysta
-        TAURON Arena Kraków Wieczysta - Meissnera, Pilotów, Łukasiewicza, al. Beliny-Prażmowskiego, Lubicz, Basztowa, al. Słowackiego, al. Mickiewicza, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
+        OS. PODWAWELSKIE - Barska, Konopnickiej, al. Krasińskiego, al. Mickiewicza, Karmelicka, Garbarska, Basztowa, Lubicz, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Ułanów, Meissnera - TAURON ARENA KRAKÓW WIECZYSTA
+        TAURON ARENA KRAKÓW WIECZYSTA - Meissnera, Pilotów, Łukasiewicza, al. Beliny-Prażmowskiego, Lubicz, Basztowa, al. Słowackiego, al. Mickiewicza, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
     09.06.2026 - 25.06.2026
-        OS. PODWAWELSKIE - Barska, Konopnickiej, al. Krasińskiego, al. Mickiewicza, Karmelicka, Garbarska, Basztowa, Lubicz, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Ułanów, Meissnera - TAURON Arena Kraków Wieczysta
-        TAURON Arena Kraków Wieczysta - Meissnera, Pilotów, Olszyny, al. Beliny-Prażmowskiego, Lubicz, Basztowa, al. Słowackiego, al. Mickiewicza, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
+        OS. PODWAWELSKIE - Barska, Konopnickiej, al. Krasińskiego, al. Mickiewicza, Karmelicka, Garbarska, Basztowa, Lubicz, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Ułanów, Meissnera - TAURON ARENA KRAKÓW WIECZYSTA
+        TAURON ARENA KRAKÓW WIECZYSTA - Meissnera, Pilotów, Olszyny, al. Beliny-Prażmowskiego, Lubicz, Basztowa, al. Słowackiego, al. Mickiewicza, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
 
 125
     Stała
@@ -806,6 +806,9 @@
     Stała
         KOMBINAT - Ujastek, al. Solidarności, al. Róż, Żeromskiego, Obrońców Krzyża, Mikołajczyka, Srebrnych Orłów, Jancarza, Bohomolca, Dobrego Pasterza, al. 29 Listopada, al. Słowackiego, al. Mickiewicza, Czarnowiejska, Nawojki, Armii Krajowej - PRZYBYSZEWSKIEGO
         PRZYBYSZEWSKIEGO - Armii Krajowej, Nawojki, Czarnowiejska, al. Słowackiego, al. 29 Listopada, Dobrego Pasterza, Bohomolca, Jancarza, Srebrnych Orłów, Mikołajczyka, Obrońców Krzyża, al. Róż, al. Przyjaźni, al. Solidarności, Ujastek - KOMBINAT
+    od 12.08.2026
+        KOMBINAT - Ujastek, al. Solidarności, Rydza-Śmigłego, Żeromskiego, Obrońców Krzyża, Mikołajczyka, Srebrnych Orłów, Jancarza, Bohomolca, Dobrego Pasterza, al. 29 Listopada, al. Słowackiego, al. Mickiewicza, Czarnowiejska, Nawojki, Armii Krajowej - PRZYBYSZEWSKIEGO
+        PRZYBYSZEWSKIEGO - Armii Krajowej, Nawojki, Czarnowiejska, al. Słowackiego, al. 29 Listopada, Dobrego Pasterza, Bohomolca, Jancarza, Srebrnych Orłów, Mikołajczyka, Obrońców Krzyża, al. Róż, Rydza-Śmigłego, al. Solidarności, Ujastek - KOMBINAT
 
 140
     Stała
@@ -833,10 +836,15 @@
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Łowińskiego, Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego - CZYŻYNY DWORZEC
         CZYŻYNY DWORZEC - Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Mrozowa, Blokowa, Łowińskiego, Mrozowa, Łowińskiego, Poległych w Krzesławicach, Architektów - OS. NA STOKU
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Łowińskiego, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego - CZYŻYNY DWORZEC
-    od 25.07.2026
+    25.07.2026 - 11.08.2026
         CZYŻYNY DWORZEC - Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Łowińskiego, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Łowińskiego, Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego - CZYŻYNY DWORZEC
         CZYŻYNY DWORZEC - Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Mrozowa, Blokowa, Łowińskiego, Mrozowa, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
+        OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Łowińskiego, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego - CZYŻYNY DWORZEC
+    od 12.08.2026
+        CZYŻYNY DWORZEC - Medweckiego, Dąbrowskiej, al. Andersa, al. Róż, al. Solidarności, Ujastek, Łowińskiego, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
+        OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Łowińskiego, Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego - CZYŻYNY DWORZEC
+        CZYŻYNY DWORZEC - Medweckiego, Dąbrowskiej, al. Andersa, al. Róż, al. Solidarności, Ujastek, Mrozowa, Blokowa, Łowińskiego, Mrozowa, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Łowińskiego, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego - CZYŻYNY DWORZEC
 
 143
@@ -961,6 +969,9 @@
     Stała
         SZPITAL RYDYGIERA - Łopackiego, Obrońców Krzyża, al. Róż, al. Przyjaźni, al. Solidarności, Bulwarowa, al. Jana Pawła II, Zachemskiego, Sieroszewskiego, Klasztorna, Półłanki, Domagały, Agatowa, Bieżanowska, Barbary, Ćwiklińskiej, Teligi, Jakubowskiego - MIEJSKIE CENTRUM OPIEKI
         MIEJSKIE CENTRUM OPIEKI - Jakubowskiego, Teligi, Ćwiklińskiej, Mała Góra, Bieżanowska, Agatowa, Domagały, Nad Drwiną, Półłanki, Klasztorna, Sieroszewskiego, al. Jana Pawła II, Bulwarowa, Orkana, al. Solidarności, al. Róż, Żeromskiego, Obrońców Krzyża, Łopackiego - SZPITAL RYDYGIERA
+    od 12.08.2026
+        SZPITAL RYDYGIERA - Łopackiego, Obrońców Krzyża, al. Róż, Rydza-Śmigłego, al. Solidarności, Bulwarowa, al. Jana Pawła II, Zachemskiego, Sieroszewskiego, Klasztorna, Półłanki, Domagały, Agatowa, Bieżanowska, Barbary, Ćwiklińskiej, Teligi, Jakubowskiego - MIEJSKIE CENTRUM OPIEKI
+        MIEJSKIE CENTRUM OPIEKI - Jakubowskiego, Teligi, Ćwiklińskiej, Mała Góra, Bieżanowska, Agatowa, Domagały, Nad Drwiną, Półłanki, Klasztorna, Sieroszewskiego, al. Jana Pawła II, Bulwarowa, Orkana, Rydza-Śmigłego, Żeromskiego, Obrońców Krzyża, Łopackiego - SZPITAL RYDYGIERA
 
 164
     Stała
@@ -1002,9 +1013,12 @@
     Stała
         KOMBINAT - Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, al. Bora-Komorowskiego, Lublańska, Opolska, Conrada, Armii Krajowej, Balicka, Lindego, Na Błonie - BRONOWICE MAŁE
         BRONOWICE MAŁE - Na Błonie, Balicka, Armii Krajowej, Conrada, Opolska, Lublańska, al. Bora-Komorowskiego, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek - KOMBINAT
-    od 06.06.2026
+    06.06.2026 - 11.08.2026
         KOMBINAT - Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, al. Bora-Komorowskiego, Lublańska, Opolska, Conrada, Armii Krajowej, Balicka, Lindego - LINDEGO
         LINDEGO - Lindego, Balicka, Armii Krajowej, Conrada, Opolska, Lublańska, al. Bora-Komorowskiego, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek - KOMBINAT
+    od 12.08.2026
+        KOMBINAT - Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, al. Bora-Komorowskiego, Lublańska, Opolska, Conrada, Armii Krajowej, Balicka, Lindego - LINDEGO
+        LINDEGO - Lindego, Balicka, Armii Krajowej, Conrada, Opolska, Lublańska, al. Bora-Komorowskiego, al. Andersa, al. Róż, al. Solidarności, Ujastek - KOMBINAT
 
 173
     Stała
@@ -1108,6 +1122,9 @@
     Stała
         LESISKO - Zagłoby, Klasztorna, Sieroszewskiego, al. Jana Pawła II, Bulwarowa, Orkana, al. Solidarności, al. Róż, Żeromskiego, Obrońców Krzyża, Mikołajczyka, Piasta Kołodzieja, Kruszwicka, Popielidów, Piasta Kołodzieja, Powstańców, Strzelców, Powstańców, al. 29 Listopada, Banacha, Papierni Prądnickich - GÓRKA NARODOWA P+R
         GÓRKA NARODOWA P+R - Banacha, al. 29 Listopada, Powstańców, Strzelców, Powstańców, Piasta Kołodzieja, Popielidów, Kruszwicka, Mikołajczyka, Obrońców Krzyża, al. Róż, al. Przyjaźni, al. Solidarności, Bulwarowa, al. Jana Pawła II, Zachemskiego, Sieroszewskiego, Klasztorna, Zagłoby - LESISKO
+    od 12.08.2026
+        LESISKO - Zagłoby, Klasztorna, Sieroszewskiego, al. Jana Pawła II, Bulwarowa, Orkana, Rydza-Śmigłego, Żeromskiego, Obrońców Krzyża, Mikołajczyka, Piasta Kołodzieja, Kruszwicka, Popielidów, Piasta Kołodzieja, Powstańców, Strzelców, Powstańców, al. 29 Listopada, Banacha, Papierni Prądnickich - GÓRKA NARODOWA P+R
+        GÓRKA NARODOWA P+R - Banacha, al. 29 Listopada, Powstańców, Strzelców, Powstańców, Piasta Kołodzieja, Popielidów, Kruszwicka, Mikołajczyka, Obrońców Krzyża, al. Róż, Rydza-Śmigłego, al. Solidarności, Bulwarowa, al. Jana Pawła II, Zachemskiego, Sieroszewskiego, Klasztorna, Zagłoby - LESISKO
 
 194
     Stała
@@ -1741,18 +1758,28 @@
     Stała
         BABA JAGA - al. Kasy Oszczędności Miasta Krakowa, al. Żubrowa - ZOO
         ZOO - al. Żubrowa, al. Kasy Oszczędności Miasta Krakowa - BABA JAGA
-
+Rydza-Śmigłego
 442
     Stała
         CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Mrozowa, Blokowa, Darwina, Kocmyrzowska, Architektów - OS. NA STOKU
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
         CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Mrozowa, Blokowa, Łowińskiego, Mrozowa, Łowińskiego, Poległych w Krzesławicach, Architektów - OS. NA STOKU
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Łowińskiego, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
-    Obecna
+    do 24.07.2026
         CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Łowińskiego, Kocmyrzowska, Architektów - OS. NA STOKU
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Łowińskiego, Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
         CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Mrozowa, Blokowa, Łowińskiego, Mrozowa, Łowińskiego, Kocmyrzowska, Architektów - OS. NA STOKU
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Łowińskiego, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
+    25.07.2026 - 11.08.2026
+        CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Łowińskiego, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
+        OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina. Blokowa, Łowińskiego, Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
+        CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Mrozowa, Blokowa, Łowińskiego, Mrozowa, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
+        OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina. Blokowa, Łowińskiego, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
+    od 12.08.2026
+        CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Róż, al. Solidarności, Ujastek, Łowińskiego, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
+        OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Łowińskiego, Ujastek, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
+        CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Róż, al. Solidarności, Ujastek, Mrozowa, Blokowa, Łowińskiego, Mrozowa, Darwina, Poległych w Krzesławicach, Architektów - OS. NA STOKU
+        OS. NA STOKU - Architektów, Poległych w Krzesławicach, Darwina, Blokowa, Łowińskiego, Mrozowa, al. Solidarności, al. Przyjaźni, al. Andersa, Dąbrowskiej, Medweckiego, Stella-Sawickiego, al. Bora-Komorowskiego, Dobrego Pasterza, Strzelców, Powstańców - CMENTARZ PRĄDNIK CZERWONY
 
 463
     19.07.2026
@@ -1817,6 +1844,9 @@
     do 26.06.2026
         ZALEW NOWOHUCKI - al. Solidarności, al. Róż, Żeromskiego, Obrońców Krzyża, al. Andersa, al. Bora-Komorowskiego, Młyńska, Pilotów, Lubomirskiego, Wita Stwosza, Pawia, al. Słowackiego, al. Mickiewicza, Czarnowiejska, Nawojki, Armii Krajowej, Jasnogórska, Chełmońskiego, Stawowa - CHEŁMOŃSKIEGO PĘTLA
         CHEŁMOŃSKIEGO PĘTLA - Stawowa, Jasnogórska, Armii Krajowej, Nawojki, Czarnowiejska, al. Słowackiego, Pawia, Lubomirskiego, al. Beliny-Prażmowskiego, Pilotów, Młyńska, al. Bora-Komorowskiego, Dunikowskiego, Obrońców Krzyża, al. Róż, al. Przyjaźni, al. Solidarności - ZALEW NOWOHUCKI
+    od 12.08.2026
+        ZALEW NOWOHUCKI - al. Solidarności, Rydza-Śmigłego, Żeromskiego, Obrońców Krzyża, al. Andersa, al. Bora-Komorowskiego, Młyńska, Pilotów, Lubomirskiego, Wita Stwosza, Pawia, al. Słowackiego, al. Mickiewicza, Czarnowiejska, Nawojki, Armii Krajowej, Jasnogórska, Chełmońskiego, Stawowa - BRONOWICE WIELKIE WSCHÓD
+        BRONOWICE WIELKIE WSCHÓD - Stawowa, Jasnogórska, Armii Krajowej, Nawojki, Czarnowiejska, al. Słowackiego, Pawia, Lubomirskiego, al. Beliny-Prażmowskiego, Pilotów, Młyńska, al. Bora-Komorowskiego, Dunikowskiego, Obrońców Krzyża, al. Róż, Rydza-Śmigłego, al. Solidarności - ZALEW NOWOHUCKI
 
 502
     Stała
