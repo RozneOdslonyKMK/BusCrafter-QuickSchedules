@@ -1,0 +1,564 @@
+{
+    "line-config": {
+        "line": "538",
+        "line-type": "Specjalna",
+        "line-operator": "MPK S.A. w Krakowie",
+        "is-route-changed": false
+    },
+    "schedule-config": {
+        "schedule-format": "from-2023",
+        "schedule-route": {
+            "direction-0": "OS. NA STOKU - Architektów, Kocmyrzowska, al. Andersa, al. Bora-Komorowskiego, Dobrego Pasterza, Lublańska, Opolska, Krowoderskich Zuchów - KROWODRZA GÓRKA P+R",
+            "direction-1": "KROWODRZA GÓRKA P+R - Krowoderskich Zuchów, Opolska, Lublańska, Dobrego Pasterza, al. Bora-Komorowskiego, Kocmyrzowska, Architektów - OS. NA STOKU"
+        },
+        "schedule-watermark": "Museum",
+        "museum-line": true,
+        "valid-from": "13.09.2026",
+        "date-mode": "od"
+    },
+    "route-config": {
+        "direction-0": {
+            "name": "Krowodrza G. P+R",
+            "streets": "Architektów, Kocmyrzowska, al. Andersa, al. Bora-Komorowskiego, Dobrego Pasterza, Lublańska, Opolska, Krowoderskich Zuchów",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "Os. Na Stoku 02",
+                        "code": "156-02",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "00", "30"
+                                ],
+                                "12": [
+                                    "00", "30"
+                                ],
+                                "13": [
+                                    "00", "30"
+                                ],
+                                "14": [
+                                    "00", "30"
+                                ],
+                                "15": [
+                                    "00", "30"
+                                ],
+                                "16": [
+                                    "00", "30"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "Wańkowicza 03",
+                        "code": "121-03",
+                        "on-demand": false,
+                        "time": "5",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "05", "35"
+                                ],
+                                "12": [
+                                    "05", "35"
+                                ],
+                                "13": [
+                                    "05", "35"
+                                ],
+                                "14": [
+                                    "05", "35"
+                                ],
+                                "15": [
+                                    "05", "35"
+                                ],
+                                "16": [
+                                    "05", "35"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "3": {
+                        "name": "Rondo Kocmyrzowskie im. ks. Gorzelanego 06",
+                        "code": "118-06",
+                        "on-demand": false,
+                        "time": "9",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "09", "39"
+                                ],
+                                "12": [
+                                    "09", "39"
+                                ],
+                                "13": [
+                                    "09", "39"
+                                ],
+                                "14": [
+                                    "09", "39"
+                                ],
+                                "15": [
+                                    "09", "39"
+                                ],
+                                "16": [
+                                    "09", "39"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "4": {
+                        "name": "Wiślicka 01",
+                        "code": "132-01",
+                        "on-demand": false,
+                        "time": "14",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "14", "44"
+                                ],
+                                "12": [
+                                    "14", "44"
+                                ],
+                                "13": [
+                                    "14", "44"
+                                ],
+                                "14": [
+                                    "14", "44"
+                                ],
+                                "15": [
+                                    "14", "44"
+                                ],
+                                "16": [
+                                    "14", "44"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "5": {
+                        "name": "Os. Oświecenia 01",
+                        "code": "131-01",
+                        "on-demand": false,
+                        "time": "16",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "16", "46"
+                                ],
+                                "12": [
+                                    "16", "46"
+                                ],
+                                "13": [
+                                    "16", "46"
+                                ],
+                                "14": [
+                                    "16", "46"
+                                ],
+                                "15": [
+                                    "16", "46"
+                                ],
+                                "16": [
+                                    "16", "46"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "6": {
+                        "name": "Rondo Barei 03",
+                        "code": "866-03",
+                        "on-demand": false,
+                        "time": "19",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "19", "49"
+                                ],
+                                "12": [
+                                    "19", "49"
+                                ],
+                                "13": [
+                                    "19", "49"
+                                ],
+                                "14": [
+                                    "19", "49"
+                                ],
+                                "15": [
+                                    "19", "49"
+                                ],
+                                "16": [
+                                    "19", "49"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "7": {
+                        "name": "Opolska Estakada 04",
+                        "code": "843-04",
+                        "on-demand": false,
+                        "time": "23",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "23", "53"
+                                ],
+                                "12": [
+                                    "23", "53"
+                                ],
+                                "13": [
+                                    "23", "53"
+                                ],
+                                "14": [
+                                    "23", "53"
+                                ],
+                                "15": [
+                                    "23", "53"
+                                ],
+                                "16": [
+                                    "23", "53"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "8": {
+                        "name": "Pleszowska 02",
+                        "code": "419-02",
+                        "on-demand": false,
+                        "time": "26",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "26", "56"
+                                ],
+                                "12": [
+                                    "26", "56"
+                                ],
+                                "13": [
+                                    "26", "56"
+                                ],
+                                "14": [
+                                    "26", "56"
+                                ],
+                                "15": [
+                                    "26", "56"
+                                ],
+                                "16": [
+                                    "26", "56"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "9": {
+                        "name": "Krowodrza Górka P+R",
+                        "code": "416-04",
+                        "on-demand": false,
+                        "time": "29",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "29", "59"
+                                ],
+                                "12": [
+                                    "29", "59"
+                                ],
+                                "13": [
+                                    "29", "59"
+                                ],
+                                "14": [
+                                    "29", "59"
+                                ],
+                                "15": [
+                                    "29", "59"
+                                ],
+                                "16": [
+                                    "29", "59"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        },
+        "direction-1": {
+            "name": "Os. Na Stoku",
+            "streets": "Krowoderskich Zuchów, Opolska, Lublańska, Dobrego Pasterza, al. Bora-Komorowskiego, Kocmyrzowska, Architektów",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "Krowodrza Górka P+R 04",
+                        "code": "416-04",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "00", "30"
+                                ],
+                                "12": [
+                                    "00", "30"
+                                ],
+                                "13": [
+                                    "00", "30"
+                                ],
+                                "14": [
+                                    "00", "30"
+                                ],
+                                "15": [
+                                    "00", "30"
+                                ],
+                                "16": [
+                                    "00", "30"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "Pleszowska 01",
+                        "code": "419-01",
+                        "on-demand": false,
+                        "time": "3",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "03", "33"
+                                ],
+                                "12": [
+                                    "03", "33"
+                                ],
+                                "13": [
+                                    "03", "33"
+                                ],
+                                "14": [
+                                    "03", "33"
+                                ],
+                                "15": [
+                                    "03", "33"
+                                ],
+                                "16": [
+                                    "03", "33"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "3": {
+                        "name": "Opolska Estakada 03",
+                        "code": "843-03",
+                        "on-demand": false,
+                        "time": "7",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "07", "37"
+                                ],
+                                "12": [
+                                    "07", "37"
+                                ],
+                                "13": [
+                                    "07", "37"
+                                ],
+                                "14": [
+                                    "07", "37"
+                                ],
+                                "15": [
+                                    "07", "37"
+                                ],
+                                "16": [
+                                    "07", "37"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "4": {
+                        "name": "Rondo Barei 02",
+                        "code": "866-02",
+                        "on-demand": false,
+                        "time": "12",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "12", "42"
+                                ],
+                                "12": [
+                                    "12", "42"
+                                ],
+                                "13": [
+                                    "12", "42"
+                                ],
+                                "14": [
+                                    "12", "42"
+                                ],
+                                "15": [
+                                    "12", "42"
+                                ],
+                                "16": [
+                                    "12", "42"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "5": {
+                        "name": "Os. Oświecenia 02",
+                        "code": "131-02",
+                        "on-demand": false,
+                        "time": "14",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "14", "44"
+                                ],
+                                "12": [
+                                    "14", "44"
+                                ],
+                                "13": [
+                                    "14", "44"
+                                ],
+                                "14": [
+                                    "14", "44"
+                                ],
+                                "15": [
+                                    "14", "44"
+                                ],
+                                "16": [
+                                    "14", "44"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "6": {
+                        "name": "Wiślicka 02",
+                        "code": "132-02",
+                        "on-demand": false,
+                        "time": "16",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "16", "46"
+                                ],
+                                "12": [
+                                    "16", "46"
+                                ],
+                                "13": [
+                                    "16", "46"
+                                ],
+                                "14": [
+                                    "16", "46"
+                                ],
+                                "15": [
+                                    "16", "46"
+                                ],
+                                "16": [
+                                    "16", "46"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "7": {
+                        "name": "Rondo Kocmyrzowskie im. ks. Gorzelanego 08",
+                        "code": "118-08",
+                        "on-demand": false,
+                        "time": "21",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "21", "51"
+                                ],
+                                "12": [
+                                    "21", "51"
+                                ],
+                                "13": [
+                                    "21", "51"
+                                ],
+                                "14": [
+                                    "21", "51"
+                                ],
+                                "15": [
+                                    "21", "51"
+                                ],
+                                "16": [
+                                    "21", "51"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "8": {
+                        "name": "Wańkowicza 04",
+                        "code": "121-04",
+                        "on-demand": false,
+                        "time": "24",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "24", "54"
+                                ],
+                                "12": [
+                                    "24", "54"
+                                ],
+                                "13": [
+                                    "24", "54"
+                                ],
+                                "14": [
+                                    "24", "54"
+                                ],
+                                "15": [
+                                    "24", "54"
+                                ],
+                                "16": [
+                                    "24", "54"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "9": {
+                        "name": "Os. Na Stoku",
+                        "code": "156-02",
+                        "on-demand": false,
+                        "time": "30",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "30"
+                                ],
+                                "12": [
+                                    "00", "30"
+                                ],
+                                "13": [
+                                    "00", "30"
+                                ],
+                                "14": [
+                                    "00", "30"
+                                ],
+                                "15": [
+                                    "00", "30"
+                                ],
+                                "16": [
+                                    "00", "30"
+                                ],
+                                "17": [
+                                    "00"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        }
+    }
+}
