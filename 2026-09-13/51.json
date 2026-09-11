@@ -1,0 +1,1396 @@
+{
+    "line-config": {
+        "line": "51",
+        "line-type": "Specjalna",
+        "line-operator": "MPK S.A. w Krakowie",
+        "is-route-changed": false
+    },
+    "schedule-config": {
+        "schedule-format": "from-2023",
+        "schedule-route": {
+            "direction-0": "NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Na Zjeździe, Starowiślna, Westerplatte, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II - TAURON ARENA KRAKÓW WIECZYSTA",
+            "direction-1": "TAURON ARENA KRAKÓW WIECZYSTA - al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Westerplatte, Starowiślna, Na Zjeździe, Limanowskiego, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R"
+        },
+        "schedule-watermark": "Museum",
+        "museum-line": true,
+        "valid-from": "13.09.2026",
+        "date-mode": "od"
+    },
+    "route-config": {
+        "direction-0": {
+            "name": "TAURON Arena Kraków Wieczysta",
+            "streets": "Ćwiklińskiej, Teligi, Wielicka, Na Zjeździe, Starowiślna, Westerplatte, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "Nowy Bieżanów P+R 01",
+                        "code": "702-1t",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "59"
+                                ],
+                                "12": [ 
+                                    "59"
+                                ],
+                                "13": [
+                                    "59"
+                                ],
+                                "14": [
+                                    "59"
+                                ],
+                                "15": [
+                                    "59"
+                                ],
+                                "16": [
+                                    "59"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "Ćwiklińskiej 02",
+                        "code": "657-2t",
+                        "on-demand": false,
+                        "time": "1",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "00"
+                                ],
+                                "13": [ 
+                                    "00"
+                                ],
+                                "14": [
+                                    "00"
+                                ],
+                                "15": [
+                                    "00"
+                                ],
+                                "16": [
+                                    "00"
+                                ],
+                                "17": [
+                                    "00"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "3": {
+                        "name": "Nowy Prokocim 02",
+                        "code": "656-2t",
+                        "on-demand": false,
+                        "time": "2",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "01"
+                                ],
+                                "13": [ 
+                                    "01"
+                                ],
+                                "14": [
+                                    "01"
+                                ],
+                                "15": [
+                                    "01"
+                                ],
+                                "16": [
+                                    "01"
+                                ],
+                                "17": [
+                                    "01"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "4": {
+                        "name": "Teligi 02",
+                        "code": "655-2t",
+                        "on-demand": false,
+                        "time": "3",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "02"
+                                ],
+                                "13": [ 
+                                    "02"
+                                ],
+                                "14": [
+                                    "02"
+                                ],
+                                "15": [
+                                    "02"
+                                ],
+                                "16": [
+                                    "02"
+                                ],
+                                "17": [
+                                    "02"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "5": {
+                        "name": "Prokocim Szpital 02",
+                        "code": "649-2t",
+                        "on-demand": false,
+                        "time": "4",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "03"
+                                ],
+                                "13": [ 
+                                    "03"
+                                ],
+                                "14": [
+                                    "03"
+                                ],
+                                "15": [
+                                    "03"
+                                ],
+                                "16": [
+                                    "03"
+                                ],
+                                "17": [
+                                    "03"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "6": {
+                        "name": "Prokocim 02",
+                        "code": "648-2t",
+                        "on-demand": false,
+                        "time": "6",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "05"
+                                ],
+                                "13": [ 
+                                    "05"
+                                ],
+                                "14": [
+                                    "05"
+                                ],
+                                "15": [
+                                    "05"
+                                ],
+                                "16": [
+                                    "05"
+                                ],
+                                "17": [
+                                    "05"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "7": {
+                        "name": "Wlotowa 02",
+                        "code": "647-2t",
+                        "on-demand": false,
+                        "time": "7",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "06"
+                                ],
+                                "13": [ 
+                                    "06"
+                                ],
+                                "14": [
+                                    "06"
+                                ],
+                                "15": [
+                                    "06"
+                                ],
+                                "16": [
+                                    "06"
+                                ],
+                                "17": [
+                                    "06"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "8": {
+                        "name": "Bieżanowska 02",
+                        "code": "646-2t",
+                        "on-demand": false,
+                        "time": "8",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "07"
+                                ],
+                                "13": [ 
+                                    "07"
+                                ],
+                                "14": [
+                                    "07"
+                                ],
+                                "15": [
+                                    "07"
+                                ],
+                                "16": [
+                                    "07"
+                                ],
+                                "17": [
+                                    "07"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "9": {
+                        "name": "Kabel 02",
+                        "code": "645-2t",
+                        "on-demand": false,
+                        "time": "10",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "09"
+                                ],
+                                "13": [ 
+                                    "09"
+                                ],
+                                "14": [
+                                    "09"
+                                ],
+                                "15": [
+                                    "09"
+                                ],
+                                "16": [
+                                    "09"
+                                ],
+                                "17": [
+                                    "09"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "10": {
+                        "name": "Dworcowa 02",
+                        "code": "644-2t",
+                        "on-demand": false,
+                        "time": "12",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "11"
+                                ],
+                                "13": [ 
+                                    "11"
+                                ],
+                                "14": [
+                                    "11"
+                                ],
+                                "15": [
+                                    "11"
+                                ],
+                                "16": [
+                                    "11"
+                                ],
+                                "17": [
+                                    "11"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "11": {
+                        "name": "Cmentarz Podgórski 02",
+                        "code": "643-2t",
+                        "on-demand": false,
+                        "time": "14",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "13"
+                                ],
+                                "13": [ 
+                                    "13"
+                                ],
+                                "14": [
+                                    "13"
+                                ],
+                                "15": [
+                                    "13"
+                                ],
+                                "16": [
+                                    "13"
+                                ],
+                                "17": [
+                                    "13"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "12": {
+                        "name": "Podgórze SKA 02",
+                        "code": "642-2t",
+                        "on-demand": false,
+                        "time": "16",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "15"
+                                ],
+                                "13": [ 
+                                    "15"
+                                ],
+                                "14": [
+                                    "15"
+                                ],
+                                "15": [
+                                    "15"
+                                ],
+                                "16": [
+                                    "15"
+                                ],
+                                "17": [
+                                    "15"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "13": {
+                        "name": "Plac Bohaterów Getta 02",
+                        "code": "640-2t",
+                        "on-demand": false,
+                        "time": "18",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "17"
+                                ],
+                                "13": [ 
+                                    "17"
+                                ],
+                                "14": [
+                                    "17"
+                                ],
+                                "15": [
+                                    "17"
+                                ],
+                                "16": [
+                                    "17"
+                                ],
+                                "17": [
+                                    "17"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "14": {
+                        "name": "św. Wawrzyńca 02",
+                        "code": "816-2t",
+                        "on-demand": false,
+                        "time": "21",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "20"
+                                ],
+                                "13": [ 
+                                    "20"
+                                ],
+                                "14": [
+                                    "20"
+                                ],
+                                "15": [
+                                    "20"
+                                ],
+                                "16": [
+                                    "20"
+                                ],
+                                "17": [
+                                    "20"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "15": {
+                        "name": "Miodowa 02",
+                        "code": "815-2t",
+                        "on-demand": false,
+                        "time": "22",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "21"
+                                ],
+                                "13": [ 
+                                    "21"
+                                ],
+                                "14": [
+                                    "21"
+                                ],
+                                "15": [
+                                    "21"
+                                ],
+                                "16": [
+                                    "21"
+                                ],
+                                "17": [
+                                    "21"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "16": {
+                        "name": "Starowiślna 01",
+                        "code": "807-1t",
+                        "on-demand": false,
+                        "time": "25",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "23"
+                                ],
+                                "13": [ 
+                                    "23"
+                                ],
+                                "14": [
+                                    "23"
+                                ],
+                                "15": [
+                                    "23"
+                                ],
+                                "16": [
+                                    "23"
+                                ],
+                                "17": [
+                                    "23"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "17": {
+                        "name": "Poczta Główna 02",
+                        "code": "806-2t",
+                        "on-demand": false,
+                        "time": "26",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "24"
+                                ],
+                                "13": [ 
+                                    "24"
+                                ],
+                                "14": [
+                                    "24"
+                                ],
+                                "15": [
+                                    "24"
+                                ],
+                                "16": [
+                                    "24"
+                                ],
+                                "17": [
+                                    "24"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "18": {
+                        "name": "Teatr Słowackiego 03",
+                        "code": "801-3t",
+                        "on-demand": false,
+                        "time": "28",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "26"
+                                ],
+                                "13": [ 
+                                    "26"
+                                ],
+                                "14": [
+                                    "26"
+                                ],
+                                "15": [
+                                    "26"
+                                ],
+                                "16": [
+                                    "26"
+                                ],
+                                "17": [
+                                    "26"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "19": {
+                        "name": "Lubicz 02",
+                        "code": "851-2t",
+                        "on-demand": false,
+                        "time": "30",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "28"
+                                ],
+                                "13": [ 
+                                    "28"
+                                ],
+                                "14": [
+                                    "28"
+                                ],
+                                "15": [
+                                    "28"
+                                ],
+                                "16": [
+                                    "28"
+                                ],
+                                "17": [
+                                    "28"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "20": {
+                        "name": "Rondo Mogilskie 02",
+                        "code": "802-2t",
+                        "on-demand": false,
+                        "time": "32",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "30"
+                                ],
+                                "13": [ 
+                                    "30"
+                                ],
+                                "14": [
+                                    "30"
+                                ],
+                                "15": [
+                                    "30"
+                                ],
+                                "16": [
+                                    "30"
+                                ],
+                                "17": [
+                                    "30"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "21": {
+                        "name": "Cystersów 01",
+                        "code": "803-1t",
+                        "on-demand": false,
+                        "time": "33",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "31"
+                                ],
+                                "13": [ 
+                                    "31"
+                                ],
+                                "14": [
+                                    "31"
+                                ],
+                                "15": [
+                                    "31"
+                                ],
+                                "16": [
+                                    "31"
+                                ],
+                                "17": [
+                                    "31"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "22": {
+                        "name": "Białucha 01",
+                        "code": "804-1t",
+                        "on-demand": false,
+                        "time": "35",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "33"
+                                ],
+                                "13": [ 
+                                    "33"
+                                ],
+                                "14": [
+                                    "33"
+                                ],
+                                "15": [
+                                    "33"
+                                ],
+                                "16": [
+                                    "33"
+                                ],
+                                "17": [
+                                    "33"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "23": {
+                        "name": "TAURON Arena Kraków Wieczysta",
+                        "code": "805-1t",
+                        "on-demand": false,
+                        "time": "37",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [
+                                    "35"
+                                ],
+                                "13": [ 
+                                    "35"
+                                ],
+                                "14": [
+                                    "35"
+                                ],
+                                "15": [
+                                    "35"
+                                ],
+                                "16": [
+                                    "35"
+                                ],
+                                "17": [
+                                    "35"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        },
+        "direction-1": {
+            "name": "Nowy Bieżanów P+R",
+            "streets": "al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Westerplatte, Starowiślna, Na Zjeździe, Limanowskiego, Wielicka, Teligi, Ćwiklińskiej",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "TAURON Arena Kraków Wieczysta 03",
+                        "code": "805-3t",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "13.09.2026": {
+                                "12": [ 
+                                    "58"
+                                ],
+                                "13": [
+                                    "58"
+                                ],
+                                "14": [
+                                    "58"
+                                ],
+                                "15": [
+                                    "58"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "TAURON Arena Kraków Wieczysta 02",
+                        "code": "805-2t",
+                        "on-demand": false,
+                        "time": "1",
+                        "departures": {
+                            "13.09.2026": {
+                                "10": [
+                                    "59"
+                                ],
+                                "11": [
+                                    "59"
+                                ],
+                                "12": [ 
+                                    "59"
+                                ],
+                                "13": [
+                                    "59"
+                                ],
+                                "14": [
+                                    "59"
+                                ],
+                                "15": [
+                                    "59"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "3": {
+                        "name": "Białucha 02",
+                        "code": "804-2t",
+                        "on-demand": false,
+                        "time": "2",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "00"
+                                ],
+                                "12": [ 
+                                    "00"
+                                ],
+                                "13": [
+                                    "00"
+                                ],
+                                "14": [
+                                    "00"
+                                ],
+                                "15": [
+                                    "00"
+                                ],
+                                "16": [
+                                    "00"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "4": {
+                        "name": "Cystersów 02",
+                        "code": "803-2t",
+                        "on-demand": false,
+                        "time": "4",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "02"
+                                ],
+                                "12": [ 
+                                    "02"
+                                ],
+                                "13": [
+                                    "02"
+                                ],
+                                "14": [
+                                    "02"
+                                ],
+                                "15": [
+                                    "02"
+                                ],
+                                "16": [
+                                    "02"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "5": {
+                        "name": "Rondo Mogilskie 01",
+                        "code": "802-1t",
+                        "on-demand": false,
+                        "time": "6",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "04"
+                                ],
+                                "12": [ 
+                                    "04"
+                                ],
+                                "13": [
+                                    "04"
+                                ],
+                                "14": [
+                                    "04"
+                                ],
+                                "15": [
+                                    "04"
+                                ],
+                                "16": [
+                                    "04"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "6": {
+                        "name": "Lubicz 01",
+                        "code": "851-1t",
+                        "on-demand": false,
+                        "time": "8",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "06"
+                                ],
+                                "12": [ 
+                                    "06"
+                                ],
+                                "13": [
+                                    "06"
+                                ],
+                                "14": [
+                                    "06"
+                                ],
+                                "15": [
+                                    "06"
+                                ],
+                                "16": [
+                                    "06"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "7": {
+                        "name": "Teatr Słowackiego 01",
+                        "code": "801-1t",
+                        "on-demand": false,
+                        "time": "11",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "08"
+                                ],
+                                "12": [ 
+                                    "08"
+                                ],
+                                "13": [
+                                    "08"
+                                ],
+                                "14": [
+                                    "08"
+                                ],
+                                "15": [
+                                    "08"
+                                ],
+                                "16": [
+                                    "08"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "8": {
+                        "name": "Poczta Główna 01",
+                        "code": "806-1t",
+                        "on-demand": false,
+                        "time": "13",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "10"
+                                ],
+                                "12": [ 
+                                    "10"
+                                ],
+                                "13": [
+                                    "10"
+                                ],
+                                "14": [
+                                    "10"
+                                ],
+                                "15": [
+                                    "10"
+                                ],
+                                "16": [
+                                    "10"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "9": {
+                        "name": "Starowiślna 02",
+                        "code": "807-2t",
+                        "on-demand": false,
+                        "time": "15",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "12"
+                                ],
+                                "12": [ 
+                                    "12"
+                                ],
+                                "13": [
+                                    "12"
+                                ],
+                                "14": [
+                                    "12"
+                                ],
+                                "15": [
+                                    "12"
+                                ],
+                                "16": [
+                                    "12"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "10": {
+                        "name": "Miodowa 01",
+                        "code": "815-1t",
+                        "on-demand": false,
+                        "time": "17",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "14"
+                                ],
+                                "12": [ 
+                                    "14"
+                                ],
+                                "13": [
+                                    "14"
+                                ],
+                                "14": [
+                                    "14"
+                                ],
+                                "15": [
+                                    "14"
+                                ],
+                                "16": [
+                                    "14"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "11": {
+                        "name": "św. Wawrzyńca 01",
+                        "code": "816-1t",
+                        "on-demand": false,
+                        "time": "18",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "15"
+                                ],
+                                "12": [ 
+                                    "15"
+                                ],
+                                "13": [
+                                    "15"
+                                ],
+                                "14": [
+                                    "15"
+                                ],
+                                "15": [
+                                    "15"
+                                ],
+                                "16": [
+                                    "15"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "12": {
+                        "name": "Plac Bohaterów Getta 01",
+                        "code": "640-1t",
+                        "on-demand": false,
+                        "time": "21",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "18"
+                                ],
+                                "12": [ 
+                                    "18"
+                                ],
+                                "13": [
+                                    "18"
+                                ],
+                                "14": [
+                                    "18"
+                                ],
+                                "15": [
+                                    "18"
+                                ],
+                                "16": [
+                                    "18"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "13": {
+                        "name": "Podgórze SKA 01",
+                        "code": "642-1t",
+                        "on-demand": false,
+                        "time": "23",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "20"
+                                ],
+                                "12": [ 
+                                    "20"
+                                ],
+                                "13": [
+                                    "20"
+                                ],
+                                "14": [
+                                    "20"
+                                ],
+                                "15": [
+                                    "20"
+                                ],
+                                "16": [
+                                    "20"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "14": {
+                        "name": "Cmentarz Podgórski 01",
+                        "code": "643-1t",
+                        "on-demand": false,
+                        "time": "24",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "21"
+                                ],
+                                "12": [ 
+                                    "21"
+                                ],
+                                "13": [
+                                    "21"
+                                ],
+                                "14": [
+                                    "21"
+                                ],
+                                "15": [
+                                    "21"
+                                ],
+                                "16": [
+                                    "21"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "15": {
+                        "name": "Dworcowa 01",
+                        "code": "644-1t",
+                        "on-demand": false,
+                        "time": "26",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "23"
+                                ],
+                                "12": [ 
+                                    "23"
+                                ],
+                                "13": [
+                                    "23"
+                                ],
+                                "14": [
+                                    "23"
+                                ],
+                                "15": [
+                                    "23"
+                                ],
+                                "16": [
+                                    "23"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "16": {
+                        "name": "Kabel 01",
+                        "code": "645-1t",
+                        "on-demand": false,
+                        "time": "28",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "25"
+                                ],
+                                "12": [ 
+                                    "25"
+                                ],
+                                "13": [
+                                    "25"
+                                ],
+                                "14": [
+                                    "25"
+                                ],
+                                "15": [
+                                    "25"
+                                ],
+                                "16": [
+                                    "25"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "17": {
+                        "name": "Bieżanowska 01",
+                        "code": "646-1t",
+                        "on-demand": false,
+                        "time": "31",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "28"
+                                ],
+                                "12": [ 
+                                    "28"
+                                ],
+                                "13": [
+                                    "28"
+                                ],
+                                "14": [
+                                    "28"
+                                ],
+                                "15": [
+                                    "28"
+                                ],
+                                "16": [
+                                    "28"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "18": {
+                        "name": "Wlotowa 01",
+                        "code": "647-1t",
+                        "on-demand": false,
+                        "time": "32",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "29"
+                                ],
+                                "12": [ 
+                                    "29"
+                                ],
+                                "13": [
+                                    "29"
+                                ],
+                                "14": [
+                                    "29"
+                                ],
+                                "15": [
+                                    "29"
+                                ],
+                                "16": [
+                                    "29"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "19": {
+                        "name": "Prokocim 01",
+                        "code": "648-1t",
+                        "on-demand": false,
+                        "time": "33",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "30"
+                                ],
+                                "12": [ 
+                                    "30"
+                                ],
+                                "13": [
+                                    "30"
+                                ],
+                                "14": [
+                                    "30"
+                                ],
+                                "15": [
+                                    "30"
+                                ],
+                                "16": [
+                                    "30"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "20": {
+                        "name": "Prokocim Szpital 01",
+                        "code": "649-1t",
+                        "on-demand": false,
+                        "time": "35",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "32"
+                                ],
+                                "12": [ 
+                                    "32"
+                                ],
+                                "13": [
+                                    "32"
+                                ],
+                                "14": [
+                                    "32"
+                                ],
+                                "15": [
+                                    "32"
+                                ],
+                                "16": [
+                                    "32"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "21": {
+                        "name": "Teligi 01",
+                        "code": "655-1t",
+                        "on-demand": false,
+                        "time": "37",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "34"
+                                ],
+                                "12": [ 
+                                    "34"
+                                ],
+                                "13": [
+                                    "34"
+                                ],
+                                "14": [
+                                    "34"
+                                ],
+                                "15": [
+                                    "34"
+                                ],
+                                "16": [
+                                    "34"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "22": {
+                        "name": "Nowy Prokocim 01",
+                        "code": "656-1t",
+                        "on-demand": false,
+                        "time": "38",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "35"
+                                ],
+                                "12": [ 
+                                    "35"
+                                ],
+                                "13": [
+                                    "35"
+                                ],
+                                "14": [
+                                    "35"
+                                ],
+                                "15": [
+                                    "35"
+                                ],
+                                "16": [
+                                    "35"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "23": {
+                        "name": "Ćwiklińskiej 01",
+                        "code": "657-1t",
+                        "on-demand": false,
+                        "time": "39",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "36"
+                                ],
+                                "12": [ 
+                                    "36"
+                                ],
+                                "13": [
+                                    "36"
+                                ],
+                                "14": [
+                                    "36"
+                                ],
+                                "15": [
+                                    "36"
+                                ],
+                                "16": [
+                                    "36"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "24": {
+                        "name": "Nowy Bieżanów P+R",
+                        "code": "702-1t",
+                        "on-demand": false,
+                        "time": "40",
+                        "departures": {
+                            "13.09.2026": {
+                                "11": [
+                                    "37"
+                                ],
+                                "12": [ 
+                                    "37"
+                                ],
+                                "13": [
+                                    "37"
+                                ],
+                                "14": [
+                                    "37"
+                                ],
+                                "15": [
+                                    "37"
+                                ],
+                                "16": [
+                                    "37"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        }
+    }
+}
