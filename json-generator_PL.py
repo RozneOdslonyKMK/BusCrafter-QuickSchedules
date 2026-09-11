@@ -64,7 +64,7 @@ soboty = "Soboty"
 swieta = "Święta"
 
 def build_service_day_map(calendar_dates_path="calendar_dates.txt"):
-    df = pd.read_csv(calendar_dates_path)
+    df = pd.read_csv(calendar_dates_path, dtype={'service_id': str})
     
     active_dates = df[df['exception_type'] == 1].copy()
     
@@ -74,6 +74,18 @@ def build_service_day_map(calendar_dates_path="calendar_dates.txt"):
     service_map = {}
     
     for service_id, group in active_dates.groupby('service_id'):
+        sid_upper = str(service_id).upper()
+        
+        if sid_upper.endswith('_SO'):
+            service_map[service_id] = "Soboty"
+            continue
+        elif sid_upper.endswith('_SW'):
+            service_map[service_id] = "Święta"
+            continue
+        elif any(sid_upper.endswith(suf) for suf in ['_PO', '_PN', '_WT', '_ŚR', '_CZ', '_PT']):
+            service_map[service_id] = "Dni powszednie"
+            continue
+
         dows = group['dow'].tolist()
         
         weekdays = sum(1 for d in dows if d < 5)
@@ -95,23 +107,60 @@ def map_service_to_day_type(service_id):
     return SERVICE_DAY_MAP.get(str(service_id), dni_powszednie)
 
 def generate_line_json(line_number, day_mode="all", custom_times=None):
-    route = routes[routes['route_short_name'] == str(line_number)].iloc[0]
-    route_id = route['route_id']
+    line_str = str(line_number).strip()
+    routes_clean = routes.copy()
+    routes_clean['route_short_name'] = routes_clean['route_short_name'].astype(str).str.strip()
     
-    line_trips = trips[trips['route_id'] == route_id]
+    matching_routes = routes_clean[routes_clean['route_short_name'] == line_str]
+    if matching_routes.empty:
+        return {}
     
-    merged = line_trips.merge(stop_times, on='trip_id').merge(stops, on='stop_id')
+    route = matching_routes.iloc[0]
+    route_id = str(route['route_id']).strip()
+
+    trips_clean = trips.copy()
+    trips_clean['route_id'] = trips_clean['route_id'].astype(str).str.strip()
+    trips_clean['trip_id'] = trips_clean['trip_id'].astype(str).str.strip()
     
+    line_trips = trips_clean[trips_clean['route_id'] == route_id]
+    if line_trips.empty:
+        return {}
+
+    st_clean = stop_times.copy()
+    st_clean['trip_id'] = st_clean['trip_id'].astype(str).str.strip()
+    st_clean['stop_id'] = st_clean['stop_id'].astype(str).str.strip()
+
+    stops_clean = stops.copy()
+    stops_clean['stop_id'] = stops_clean['stop_id'].astype(str).str.strip()
+
+    merged_st = line_trips.merge(st_clean, on='trip_id', how='inner')
+    if merged_st.empty:
+        return {}
+
+    merged = merged_st.merge(stops_clean, on='stop_id', how='inner')
+    if merged.empty:
+        return {}
+
+    unique_dirs = merged['direction_id'].nunique()
+    
+    if unique_dirs < 2 and 'trip_headsign' in merged.columns:
+        headsigns = merged['trip_headsign'].dropna().unique()
+        headsign_to_dir = {hs: idx for idx, hs in enumerate(headsigns)}
+        merged['computed_direction'] = merged['trip_headsign'].map(headsign_to_dir)
+        group_column = 'computed_direction'
+    else:
+        group_column = 'direction_id'
+
     directions_data = {}
     directions_streets = {}
     
-    for direction_id, dir_group in merged.groupby('direction_id'):
-        dir_key = f"direction-{direction_id}"
+    for dir_idx, dir_group in merged.groupby(group_column):
+        dir_key = f"direction-{int(dir_idx)}"
         
         sample_trip_id = dir_group.groupby('trip_id')['stop_sequence'].max().idxmax()
         sample_trip_stops = dir_group[dir_group['trip_id'] == sample_trip_id].sort_values('stop_sequence')
         
-        headsign = dir_group['trip_headsign'].iloc[0] if 'trip_headsign' in dir_group else "Nieznany"
+        headsign = dir_group['trip_headsign'].iloc[0] if 'trip_headsign' in dir_group and not pd.isna(dir_group['trip_headsign'].iloc[0]) else "Nieznany"
         
         dir_custom_times = None
         if custom_times and isinstance(custom_times, dict):
@@ -121,10 +170,14 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
         stop_order = 1
         
         for _, stop_row in sample_trip_stops.iterrows():
-            stop_id = stop_row['stop_id']
-            stop_code = stop_row.get('stop_code', f"{stop_id}")
-            stop_name = stop_row['stop_name']
-            stop_desc = stop_row['stop_desc']
+            stop_id = str(stop_row['stop_id']).strip()
+            stop_code = str(stop_row.get('stop_code', stop_id)).strip()
+            stop_name = str(stop_row['stop_name']).strip()
+            
+            raw_desc = stop_row.get('stop_desc', '')
+            stop_desc = "" if pd.isna(raw_desc) else str(raw_desc).split('.')[0].strip().zfill(2)
+
+            full_stop_name = f"{stop_name} {stop_desc}".strip() if stop_desc else stop_name
 
             if dir_custom_times and (stop_order - 1) < len(dir_custom_times):
                 travel_time = str(dir_custom_times[stop_order - 1])
@@ -147,8 +200,7 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
                 elif day_mode == "weekends" and day_type == dni_powszednie:
                     continue
 
-                time_str = dep['departure_time'].strip()
-                
+                time_str = str(dep['departure_time']).strip()
                 parts = time_str.split(':')
                 hour_int = int(parts[0]) % 24
                 minute_str = parts[1]
@@ -169,13 +221,12 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
                     continue
 
                 departures_sorted[day_type] = {}
-                
                 for h in sorted(hours_dict.keys()):
                     sorted_minutes = sorted(list(hours_dict[h]))
                     departures_sorted[day_type][str(h)] = sorted_minutes
 
             stops_dict[str(stop_order)] = {
-                "name": stop_name + " " + stop_desc,
+                "name": full_stop_name,
                 "code": stop_code,
                 "on-demand": False,                 # Sprawdź wygenerowany plik JSON, ponieważ ta wartość jest zawsze false. Musisz zmienić "false" na "true" dla przystanków "on-demand" w wygenerowanym pliku JSON.
                 "time": travel_time,
@@ -185,11 +236,11 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
             stop_order += 1
 
         if dir_key == "direction-0":
-            route_streets = ""                      # Ulice z pętlami dla pierwszego kierunku. Format:     PĘTLA 1 - Ulica 1, Ulica 2, Ulica 3 - PĘTLA 2
-            streets = ""                            # Tylko ulice dla pierwszego kierunku. Format:         Ulica 1, Ulica 2, Ulica 3
+            route_streets = "NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Na Zjeździe, Starowiślna, Westerplatte, Pawia, Prądnicka, Doktora Twardego - KROWODRZA GÓRKA P+R"                      # Ulice z pętlami dla pierwszego kierunku. Format:     PĘTLA 1 - Ulica 1, Ulica 2, Ulica 3 - PĘTLA 2
+            streets = "Ćwiklińskiej, Teligi, Wielicka, Na Zjeździe, Starowiślna, Westerplatte, Pawia, Prądnicka, Doktora Twardego"                            # Tylko ulice dla pierwszego kierunku. Format:         Ulica 1, Ulica 2, Ulica 3
         if dir_key == "direction-1":
-            route_streets = ""                      # Ulice z pętlami dla drugiego kierunku. Format:       PĘTLA 1 - Ulica 1, Ulica 2, Ulica 3 - PĘTLA 2
-            streets = ""                            # Tylko ulice dla drugiego kierunku. Format:           Ulica 1, Ulica 2, Ulica 3
+            route_streets = "KROWODRZA GÓRKA P+R - Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Pawia, Westerplatte, Starowiślna, Na Zjeździe, Limanowskiego, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R"                      # Ulice z pętlami dla drugiego kierunku. Format:       PĘTLA 1 - Ulica 1, Ulica 2, Ulica 3 - PĘTLA 2
+            streets = "Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Pawia, Westerplatte, Starowiślna, Na Zjeździe, Limanowskiego, Wielicka, Teligi, Ćwiklińskiej"                            # Tylko ulice dla drugiego kierunku. Format:           Ulica 1, Ulica 2, Ulica 3
         if dir_key == "direction-2":
             route_streets = ""                      # Ulice z pętlami dla trzeciego kierunku. Format:      PĘTLA 1 - Ulica 1, Ulica 2, Ulica 3 - PĘTLA 2
             streets = ""                            # Tylko ulice dla trzeciego kierunku. Format:          Ulica 1, Ulica 2, Ulica 3
