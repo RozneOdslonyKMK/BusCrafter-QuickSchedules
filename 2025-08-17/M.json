@@ -1,0 +1,119 @@
+{
+    "line-config": {
+        "line": "M",
+        "line-type": "",
+        "line-operator": "MPK S.A. w Krakowie",
+        "is-route-changed": false
+    },
+    "schedule-config": {
+        "schedule-format": "from-2023",
+        "schedule-route": {
+            "direction-0": "DWORZEC GŁÓWNY WSCHÓD - Wita Stwosza, Powiśle - NOWY ŚWIAT",
+            "direction-1": "NOWY ŚWIAT - Powiśle, Wita Stwosza - DWORZEC GŁÓWNY WSCHÓD"
+        },
+        "schedule-watermark": "Museum",
+        "museum-line": true,
+        "valid-from": "17.08.2025",
+        "date-mode": "od"
+    },
+    "route-config": {
+        "direction-0": {
+            "name": "Nowy Świat",
+            "streets": "Wita Stwosza, Powiśle",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "Dworzec Główny Wschód 01",
+                        "code": "461-01",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "17.08.2025": {
+                                "11": [
+                                    "25", "45"
+                                ],
+                                "12": [ 
+                                    "05", "25", "45"
+                                ],
+                                "13": [
+                                    "05", "25", "45"
+                                ],
+                                "14": [
+                                    "05", "45"
+                                ],
+                                "15": [
+                                    "05", "25", "45"
+                                ],
+                                "16": [
+                                    "05", "25", "45"
+                                ],
+                                "17": [
+                                    "05", "25", "45"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "Nowy Świat 72",
+                        "code": "7025-72",
+                        "on-demand": false,
+                        "time": "9",
+                        "departures": {},
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        },
+        "direction-1": {
+            "name": "Dworzec Główny Wschód",
+            "streets": "Powiśle, Wita Stwosza",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "Nowy Świat 71",
+                        "code": "7025-71",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "17.08.2025": {
+                                "11": [
+                                    "00", "20", "40"
+                                ],
+                                "12": [
+                                    "00", "20", "40"
+                                ],
+                                "13": [
+                                    "00", "20", "40"
+                                ],
+                                "14": [
+                                    "00", "20"
+                                ],
+                                "15": [
+                                    "00", "20", "40"
+                                ],
+                                "16": [
+                                    "00", "20", "40"
+                                ],
+                                "17": [
+                                    "00", "20"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "Dworzec Główny Wschód",
+                        "code": "461-01",
+                        "on-demand": false,
+                        "time": "8",
+                        "departures": {},
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        }
+    }
+}
