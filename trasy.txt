@@ -1581,7 +1581,7 @@
 
 280
     Stała
-        GÓRKA NARODOWA P+R - Dąbrowa Szlachecka ul. Długa, Wołowice ul. Podedwór, Wołowice ul. Sąsiedzka, Wołowice, Wołowice ul. Skawińska, Jeziorzany, Ściejowice, Rączna, Liszki Rynek, Liszki ul. Krakowska, Kryspinów, Księcia Józefa, Senatorska - OWCZARY PĘTLA
+        GÓRKA NARODOWA P+R - Papierni Prądnickich, al. 29 Listopada, Węgrzce ul. Warszawska, Węgrzce, Bibice ul. Kościuszki, Bibice ul. Na Czekaj, Bibice ul. Warszawska, Michałowice ul. Komora, Michałowice ul. Michałki, Michałowice ul. Graniczna, Górna Wieś ul. Graniczna, Wola Zachariaszowska ul. Słowiańska, Garlica Duchowna, Garliczka ul. Radosna, Owczary ul. Gajowa, Owczary ul. Długa - OWCZARY PĘTLA
         OWCZARY PĘTLA - Owczary ul. Długa, Owczary ul. Gajowa, Garliczka ul. Radosna, Garlica Duchowna, Wola Zachariaszowska ul. Słowiańska, Górna Wieś ul. Graniczna, Michałowice ul. Graniczna, Michałowice ul. Michałki, Michałowice ul. Komora, Michałowice ul. Krakowska, Bibice ul. Na Czekaj, Bibice ul. Kościuszki, Węgrzce ul. Warszawska, al. 29 Listopada, Papierni Prądnickich - GÓRKA NARODOWA P+R
 
 283
