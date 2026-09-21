@@ -3,7 +3,7 @@
         "line": "43",
         "line-type": "",
         "line-operator": "MPK S.A. w Krakowie",
-        "is-route-changed": true
+        "is-route-changed": false
     },
     "schedule-config": {
         "schedule-format": "from-2023",
