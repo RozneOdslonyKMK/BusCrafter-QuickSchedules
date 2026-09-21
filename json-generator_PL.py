@@ -173,6 +173,7 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
             stop_id = str(stop_row['stop_id']).strip()
             stop_code = str(stop_row.get('stop_code', stop_id)).strip()
             stop_name = str(stop_row['stop_name']).strip()
+            stop_on_demand = str(stop_row['on_demand']).strip()
             
             raw_desc = stop_row.get('stop_desc', '')
             stop_desc = "" if pd.isna(raw_desc) else str(raw_desc).split('.')[0].strip().zfill(2)
@@ -225,10 +226,15 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
                     sorted_minutes = sorted(list(hours_dict[h]))
                     departures_sorted[day_type][str(h)] = sorted_minutes
 
+            if stop_on_demand == 0:
+                stop_on_demand = False
+            if stop_on_demand == 1:
+                stop_on_demand = True
+
             stops_dict[str(stop_order)] = {
                 "name": full_stop_name,
                 "code": stop_code,
-                "on-demand": False,                 # Sprawdź wygenerowany plik JSON, ponieważ ta wartość jest zawsze false. Musisz zmienić "false" na "true" dla przystanków "on-demand" w wygenerowanym pliku JSON.
+                "on-demand": stop_on_demand,        # Pamiętaj, aby wybrać plik stops.txt z Strony Projektu GitHuba (https://github.com/RozneOdslonyKMK/BusCrafter-QuickSchedules/), ponieważ oryginalna paczka GTFS nie posiada kolumny "on_demand".
                 "time": travel_time,
                 "departures": departures_sorted,
                 "departure-merges": {}
