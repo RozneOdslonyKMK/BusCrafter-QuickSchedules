@@ -1,0 +1,2127 @@
+{
+    "line-config": {
+        "line": "15",
+        "line-type": "",
+        "line-operator": "MPK S.A. w Krakowie",
+        "is-route-changed": true
+    },
+    "schedule-config": {
+        "schedule-format": "from-2023",
+        "schedule-route": {
+            "direction-0": "PLESZÓW - Igołomska, Ptaszyckiego, al. Jana Pawła II, al. Pokoju, al. Powstania Warszawskiego, Lubicz, Westerplatte, Pl. Dominikański, Franciszkańska, Piłsudskiego, al. 3 Maja, Igrców - CICHY KĄCIK",
+            "direction-1": "CICHY KĄCIK - Igrców, al. 3 Maja, Piłsudskiego, Straszewskiego, Pl. Wszystkich Św., Św. Gertrudy, Westerplatte, Lubicz, al. Powstania Warszawskiego, al. Pokoju, al. Jana Pawła II, Ptaszyckiego, Igołomska - PLESZÓW"
+        },
+        "schedule-watermark": "Museum",
+        "museum-line": true,
+        "valid-from": "23.08.2026",
+        "date-mode": "od"
+    },
+    "route-config": {
+        "direction-0": {
+            "name": "Cichy Kącik",
+            "streets": "Igołomska, Ptaszyckiego, al. Jana Pawła II, al. Pokoju, al. Powstania Warszawskiego, Lubicz, Westerplatte, Pl. Dominikański, Franciszkańska, Piłsudskiego, al. 3 Maja, Igrców",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "Pleszów 01",
+                        "code": "218-1t",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "Święta": {
+                                "11": [
+                                    "58"
+                                ],
+                                "12": [
+                                    "58"
+                                ],
+                                "13": [
+                                    "58"
+                                ],
+                                "14": [
+                                    "58"
+                                ],
+                                "15": [
+                                    "58"
+                                ],
+                                "16": [
+                                    "58"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "Koksochemia 02",
+                        "code": "217-2t",
+                        "on-demand": true,
+                        "time": "1",
+                        "departures": {
+                            "Święta": {
+                                "11": [
+                                    "59"
+                                ],
+                                "12": [
+                                    "59"
+                                ],
+                                "13": [
+                                    "59"
+                                ],
+                                "14": [
+                                    "59"
+                                ],
+                                "15": [
+                                    "59"
+                                ],
+                                "16": [
+                                    "59"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "3": {
+                        "name": "Meksyk 02",
+                        "code": "216-2t",
+                        "on-demand": true,
+                        "time": "2",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "00"
+                                ],
+                                "13": [
+                                    "00"
+                                ],
+                                "14": [
+                                    "00"
+                                ],
+                                "15": [
+                                    "00"
+                                ],
+                                "16": [
+                                    "00"
+                                ],
+                                "17": [
+                                    "00"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "4": {
+                        "name": "Brama nr 5 02",
+                        "code": "215-2t",
+                        "on-demand": true,
+                        "time": "3",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "01"
+                                ],
+                                "13": [
+                                    "01"
+                                ],
+                                "14": [
+                                    "01"
+                                ],
+                                "15": [
+                                    "01"
+                                ],
+                                "16": [
+                                    "01"
+                                ],
+                                "17": [
+                                    "01"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "5": {
+                        "name": "Giedroycia 02",
+                        "code": "214-2t",
+                        "on-demand": true,
+                        "time": "4",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "02"
+                                ],
+                                "13": [
+                                    "02"
+                                ],
+                                "14": [
+                                    "02"
+                                ],
+                                "15": [
+                                    "02"
+                                ],
+                                "16": [
+                                    "02"
+                                ],
+                                "17": [
+                                    "02"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "6": {
+                        "name": "Brama nr 4 02",
+                        "code": "213-2t",
+                        "on-demand": true,
+                        "time": "5",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "03"
+                                ],
+                                "13": [
+                                    "03"
+                                ],
+                                "14": [
+                                    "03"
+                                ],
+                                "15": [
+                                    "03"
+                                ],
+                                "16": [
+                                    "03"
+                                ],
+                                "17": [
+                                    "03"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "7": {
+                        "name": "Fort Mogiła 02",
+                        "code": "889-2t",
+                        "on-demand": true,
+                        "time": "6",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "04"
+                                ],
+                                "13": [
+                                    "04"
+                                ],
+                                "14": [
+                                    "04"
+                                ],
+                                "15": [
+                                    "04"
+                                ],
+                                "16": [
+                                    "04"
+                                ],
+                                "17": [
+                                    "04"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "8": {
+                        "name": "Bardosa 02",
+                        "code": "211-2t",
+                        "on-demand": false,
+                        "time": "8",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "06"
+                                ],
+                                "13": [
+                                    "06"
+                                ],
+                                "14": [
+                                    "06"
+                                ],
+                                "15": [
+                                    "06"
+                                ],
+                                "16": [
+                                    "06"
+                                ],
+                                "17": [
+                                    "06"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "9": {
+                        "name": "Suche Stawy 02",
+                        "code": "210-2t",
+                        "on-demand": false,
+                        "time": "9",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "07"
+                                ],
+                                "13": [
+                                    "07"
+                                ],
+                                "14": [
+                                    "07"
+                                ],
+                                "15": [
+                                    "07"
+                                ],
+                                "16": [
+                                    "07"
+                                ],
+                                "17": [
+                                    "07"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "10": {
+                        "name": "Klasztorna 02",
+                        "code": "189-2t",
+                        "on-demand": false,
+                        "time": "10",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "08"
+                                ],
+                                "13": [
+                                    "08"
+                                ],
+                                "14": [
+                                    "08"
+                                ],
+                                "15": [
+                                    "08"
+                                ],
+                                "16": [
+                                    "08"
+                                ],
+                                "17": [
+                                    "08"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "11": {
+                        "name": "Os. Na Skarpie 02",
+                        "code": "188-2t",
+                        "on-demand": false,
+                        "time": "11",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "09"
+                                ],
+                                "13": [
+                                    "09"
+                                ],
+                                "14": [
+                                    "09"
+                                ],
+                                "15": [
+                                    "09"
+                                ],
+                                "16": [
+                                    "09"
+                                ],
+                                "17": [
+                                    "09"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "12": {
+                        "name": "Plac Centralny im. R. Reagana 01",
+                        "code": "105-1t",
+                        "on-demand": false,
+                        "time": "14",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "12"
+                                ],
+                                "13": [
+                                    "12"
+                                ],
+                                "14": [
+                                    "12"
+                                ],
+                                "15": [
+                                    "12"
+                                ],
+                                "16": [
+                                    "12"
+                                ],
+                                "17": [
+                                    "12"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "13": {
+                        "name": "Os. Kolorowe 02",
+                        "code": "104-2t",
+                        "on-demand": false,
+                        "time": "15",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "13"
+                                ],
+                                "13": [
+                                    "13"
+                                ],
+                                "14": [
+                                    "13"
+                                ],
+                                "15": [
+                                    "13"
+                                ],
+                                "16": [
+                                    "13"
+                                ],
+                                "17": [
+                                    "13"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "14": {
+                        "name": "Rondo Czyżyńskie 04",
+                        "code": "103-4t",
+                        "on-demand": false,
+                        "time": "18",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "16"
+                                ],
+                                "13": [
+                                    "16"
+                                ],
+                                "14": [
+                                    "16"
+                                ],
+                                "15": [
+                                    "16"
+                                ],
+                                "16": [
+                                    "16"
+                                ],
+                                "17": [
+                                    "16"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "15": {
+                        "name": "Gałczyńskiego 02",
+                        "code": "116-2t",
+                        "on-demand": false,
+                        "time": "19",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "17"
+                                ],
+                                "13": [
+                                    "17"
+                                ],
+                                "14": [
+                                    "17"
+                                ],
+                                "15": [
+                                    "17"
+                                ],
+                                "16": [
+                                    "17"
+                                ],
+                                "17": [
+                                    "17"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "16": {
+                        "name": "Rondo 308. Dywizjonu 02",
+                        "code": "115-2t",
+                        "on-demand": false,
+                        "time": "20",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "18"
+                                ],
+                                "13": [
+                                    "18"
+                                ],
+                                "14": [
+                                    "18"
+                                ],
+                                "15": [
+                                    "18"
+                                ],
+                                "16": [
+                                    "18"
+                                ],
+                                "17": [
+                                    "18"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "17": {
+                        "name": "Ogród Doświadczeń 02",
+                        "code": "885-2t",
+                        "on-demand": false,
+                        "time": "22",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "20"
+                                ],
+                                "13": [
+                                    "20"
+                                ],
+                                "14": [
+                                    "20"
+                                ],
+                                "15": [
+                                    "20"
+                                ],
+                                "16": [
+                                    "20"
+                                ],
+                                "17": [
+                                    "20"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "18": {
+                        "name": "TAURON Arena Kraków Al. Pokoju 02",
+                        "code": "112-2t",
+                        "on-demand": false,
+                        "time": "23",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "21"
+                                ],
+                                "13": [
+                                    "21"
+                                ],
+                                "14": [
+                                    "21"
+                                ],
+                                "15": [
+                                    "21"
+                                ],
+                                "16": [
+                                    "21"
+                                ],
+                                "17": [
+                                    "21"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "19": {
+                        "name": "Dąbie 02",
+                        "code": "814-2t",
+                        "on-demand": false,
+                        "time": "25",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "23"
+                                ],
+                                "13": [
+                                    "23"
+                                ],
+                                "14": [
+                                    "23"
+                                ],
+                                "15": [
+                                    "23"
+                                ],
+                                "16": [
+                                    "23"
+                                ],
+                                "17": [
+                                    "23"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "20": {
+                        "name": "Ofiar Dąbia 02",
+                        "code": "813-2t",
+                        "on-demand": false,
+                        "time": "26",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "24"
+                                ],
+                                "13": [
+                                    "24"
+                                ],
+                                "14": [
+                                    "24"
+                                ],
+                                "15": [
+                                    "24"
+                                ],
+                                "16": [
+                                    "24"
+                                ],
+                                "17": [
+                                    "24"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "21": {
+                        "name": "Fabryczna 02",
+                        "code": "812-2t",
+                        "on-demand": false,
+                        "time": "27",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "25"
+                                ],
+                                "13": [
+                                    "25"
+                                ],
+                                "14": [
+                                    "25"
+                                ],
+                                "15": [
+                                    "25"
+                                ],
+                                "16": [
+                                    "25"
+                                ],
+                                "17": [
+                                    "25"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "22": {
+                        "name": "Nullo 02",
+                        "code": "811-2t",
+                        "on-demand": false,
+                        "time": "28",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "26"
+                                ],
+                                "13": [
+                                    "26"
+                                ],
+                                "14": [
+                                    "26"
+                                ],
+                                "15": [
+                                    "26"
+                                ],
+                                "16": [
+                                    "26"
+                                ],
+                                "17": [
+                                    "26"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "23": {
+                        "name": "Teatr Variété 02",
+                        "code": "810-2t",
+                        "on-demand": false,
+                        "time": "29",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "27"
+                                ],
+                                "13": [
+                                    "27"
+                                ],
+                                "14": [
+                                    "27"
+                                ],
+                                "15": [
+                                    "27"
+                                ],
+                                "16": [
+                                    "27"
+                                ],
+                                "17": [
+                                    "27"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "24": {
+                        "name": "Rondo Grzegórzeckie 03",
+                        "code": "809-3t",
+                        "on-demand": false,
+                        "time": "31",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "29"
+                                ],
+                                "13": [
+                                    "29"
+                                ],
+                                "14": [
+                                    "29"
+                                ],
+                                "15": [
+                                    "29"
+                                ],
+                                "16": [
+                                    "29"
+                                ],
+                                "17": [
+                                    "29"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "25": {
+                        "name": "Rondo Mogilskie 04",
+                        "code": "802-4t",
+                        "on-demand": false,
+                        "time": "33",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "31"
+                                ],
+                                "13": [
+                                    "31"
+                                ],
+                                "14": [
+                                    "31"
+                                ],
+                                "15": [
+                                    "31"
+                                ],
+                                "16": [
+                                    "31"
+                                ],
+                                "17": [
+                                    "31"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "26": {
+                        "name": "Lubicz 01",
+                        "code": "851-1t",
+                        "on-demand": false,
+                        "time": "35",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "33"
+                                ],
+                                "13": [
+                                    "33"
+                                ],
+                                "14": [
+                                    "33"
+                                ],
+                                "15": [
+                                    "33"
+                                ],
+                                "16": [
+                                    "33"
+                                ],
+                                "17": [
+                                    "33"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "27": {
+                        "name": "Teatr Słowackiego 01",
+                        "code": "801-1t",
+                        "on-demand": false,
+                        "time": "37",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "35"
+                                ],
+                                "13": [
+                                    "35"
+                                ],
+                                "14": [
+                                    "35"
+                                ],
+                                "15": [
+                                    "35"
+                                ],
+                                "16": [
+                                    "35"
+                                ],
+                                "17": [
+                                    "35"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "28": {
+                        "name": "Poczta Główna 01",
+                        "code": "806-1t",
+                        "on-demand": false,
+                        "time": "39",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "37"
+                                ],
+                                "13": [
+                                    "37"
+                                ],
+                                "14": [
+                                    "37"
+                                ],
+                                "15": [
+                                    "37"
+                                ],
+                                "16": [
+                                    "37"
+                                ],
+                                "17": [
+                                    "37"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "29": {
+                        "name": "Plac Wszystkich Świętych 01",
+                        "code": "821-1t",
+                        "on-demand": false,
+                        "time": "41",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "39"
+                                ],
+                                "13": [
+                                    "39"
+                                ],
+                                "14": [
+                                    "39"
+                                ],
+                                "15": [
+                                    "39"
+                                ],
+                                "16": [
+                                    "39"
+                                ],
+                                "17": [
+                                    "39"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "30": {
+                        "name": "Filharmonia 01",
+                        "code": "822-1t",
+                        "on-demand": false,
+                        "time": "43",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "41"
+                                ],
+                                "13": [
+                                    "41"
+                                ],
+                                "14": [
+                                    "41"
+                                ],
+                                "15": [
+                                    "41"
+                                ],
+                                "16": [
+                                    "41"
+                                ],
+                                "17": [
+                                    "41"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "31": {
+                        "name": "UJ / AST 01",
+                        "code": "824-1t",
+                        "on-demand": false,
+                        "time": "45",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "43"
+                                ],
+                                "13": [
+                                    "43"
+                                ],
+                                "14": [
+                                    "43"
+                                ],
+                                "15": [
+                                    "43"
+                                ],
+                                "16": [
+                                    "43"
+                                ],
+                                "17": [
+                                    "43"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "32": {
+                        "name": "Muzeum Narodowe 01",
+                        "code": "825-1t",
+                        "on-demand": false,
+                        "time": "47",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "44"
+                                ],
+                                "13": [
+                                    "44"
+                                ],
+                                "14": [
+                                    "44"
+                                ],
+                                "15": [
+                                    "44"
+                                ],
+                                "16": [
+                                    "44"
+                                ],
+                                "17": [
+                                    "44"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "33": {
+                        "name": "Oleandry 01",
+                        "code": "345-1t",
+                        "on-demand": false,
+                        "time": "48",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "45"
+                                ],
+                                "13": [
+                                    "45"
+                                ],
+                                "14": [
+                                    "45"
+                                ],
+                                "15": [
+                                    "45"
+                                ],
+                                "16": [
+                                    "45"
+                                ],
+                                "17": [
+                                    "45"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "34": {
+                        "name": "Park Jordana 01",
+                        "code": "453-1t",
+                        "on-demand": false,
+                        "time": "49",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "46"
+                                ],
+                                "13": [
+                                    "46"
+                                ],
+                                "14": [
+                                    "46"
+                                ],
+                                "15": [
+                                    "46"
+                                ],
+                                "16": [
+                                    "46"
+                                ],
+                                "17": [
+                                    "46"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "35": {
+                        "name": "Reymana 01",
+                        "code": "346-1t",
+                        "on-demand": false,
+                        "time": "50",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "47"
+                                ],
+                                "13": [
+                                    "47"
+                                ],
+                                "14": [
+                                    "47"
+                                ],
+                                "15": [
+                                    "47"
+                                ],
+                                "16": [
+                                    "47"
+                                ],
+                                "17": [
+                                    "47"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "36": {
+                        "name": "Cichy Kącik 01",
+                        "code": "347-1t",
+                        "on-demand": false,
+                        "time": "52",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "49"
+                                ],
+                                "13": [
+                                    "49"
+                                ],
+                                "14": [
+                                    "49"
+                                ],
+                                "15": [
+                                    "49"
+                                ],
+                                "16": [
+                                    "49"
+                                ],
+                                "17": [
+                                    "49"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        },
+        "direction-1": {
+            "name": "Pleszów",
+            "streets": "Igrców, al. 3 Maja, Piłsudskiego, Straszewskiego, Pl. Wszystkich Św., Św. Gertrudy, Westerplatte, Lubicz, al. Powstania Warszawskiego, al. Pokoju, al. Jana Pawła II, Ptaszyckiego, Igołomska",
+            "stops": {
+                "zone-1": {
+                    "1": {
+                        "name": "Cichy Kącik 01",
+                        "code": "347-1t",
+                        "on-demand": false,
+                        "time": "0",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "14"
+                                ],
+                                "13": [
+                                    "14"
+                                ],
+                                "14": [
+                                    "14"
+                                ],
+                                "15": [
+                                    "14"
+                                ],
+                                "16": [
+                                    "14"
+                                ],
+                                "17": [
+                                    "14"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "2": {
+                        "name": "Reymana 02",
+                        "code": "346-2t",
+                        "on-demand": false,
+                        "time": "1",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "15"
+                                ],
+                                "13": [
+                                    "15"
+                                ],
+                                "14": [
+                                    "15"
+                                ],
+                                "15": [
+                                    "15"
+                                ],
+                                "16": [
+                                    "15"
+                                ],
+                                "17": [
+                                    "15"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "3": {
+                        "name": "Park Jordana 02",
+                        "code": "453-2t",
+                        "on-demand": false,
+                        "time": "2",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "16"
+                                ],
+                                "13": [
+                                    "16"
+                                ],
+                                "14": [
+                                    "16"
+                                ],
+                                "15": [
+                                    "16"
+                                ],
+                                "16": [
+                                    "16"
+                                ],
+                                "17": [
+                                    "16"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "4": {
+                        "name": "Oleandry 02",
+                        "code": "345-2t",
+                        "on-demand": false,
+                        "time": "3",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "17"
+                                ],
+                                "13": [
+                                    "17"
+                                ],
+                                "14": [
+                                    "17"
+                                ],
+                                "15": [
+                                    "17"
+                                ],
+                                "16": [
+                                    "17"
+                                ],
+                                "17": [
+                                    "17"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "5": {
+                        "name": "Muzeum Narodowe 02",
+                        "code": "825-2t",
+                        "on-demand": false,
+                        "time": "4",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "18"
+                                ],
+                                "13": [
+                                    "18"
+                                ],
+                                "14": [
+                                    "18"
+                                ],
+                                "15": [
+                                    "18"
+                                ],
+                                "16": [
+                                    "18"
+                                ],
+                                "17": [
+                                    "18"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "6": {
+                        "name": "UJ / AST 02",
+                        "code": "824-2t",
+                        "on-demand": false,
+                        "time": "6",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "20"
+                                ],
+                                "13": [
+                                    "20"
+                                ],
+                                "14": [
+                                    "20"
+                                ],
+                                "15": [
+                                    "20"
+                                ],
+                                "16": [
+                                    "20"
+                                ],
+                                "17": [
+                                    "20"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "7": {
+                        "name": "Filharmonia 03",
+                        "code": "822-3t",
+                        "on-demand": false,
+                        "time": "8",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "22"
+                                ],
+                                "13": [
+                                    "22"
+                                ],
+                                "14": [
+                                    "22"
+                                ],
+                                "15": [
+                                    "22"
+                                ],
+                                "16": [
+                                    "22"
+                                ],
+                                "17": [
+                                    "22"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "8": {
+                        "name": "Plac Wszystkich Świętych 02",
+                        "code": "821-2t",
+                        "on-demand": false,
+                        "time": "9",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "23"
+                                ],
+                                "13": [
+                                    "23"
+                                ],
+                                "14": [
+                                    "23"
+                                ],
+                                "15": [
+                                    "23"
+                                ],
+                                "16": [
+                                    "23"
+                                ],
+                                "17": [
+                                    "23"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "9": {
+                        "name": "Poczta Główna 03",
+                        "code": "806-3t",
+                        "on-demand": false,
+                        "time": "11",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "25"
+                                ],
+                                "13": [
+                                    "25"
+                                ],
+                                "14": [
+                                    "25"
+                                ],
+                                "15": [
+                                    "25"
+                                ],
+                                "16": [
+                                    "25"
+                                ],
+                                "17": [
+                                    "25"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "10": {
+                        "name": "Teatr Słowackiego 03",
+                        "code": "801-3t",
+                        "on-demand": false,
+                        "time": "13",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "27"
+                                ],
+                                "13": [
+                                    "27"
+                                ],
+                                "14": [
+                                    "27"
+                                ],
+                                "15": [
+                                    "27"
+                                ],
+                                "16": [
+                                    "27"
+                                ],
+                                "17": [
+                                    "27"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "11": {
+                        "name": "Lubicz 02",
+                        "code": "851-2t",
+                        "on-demand": false,
+                        "time": "15",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "29"
+                                ],
+                                "13": [
+                                    "29"
+                                ],
+                                "14": [
+                                    "29"
+                                ],
+                                "15": [
+                                    "29"
+                                ],
+                                "16": [
+                                    "29"
+                                ],
+                                "17": [
+                                    "29"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "12": {
+                        "name": "Rondo Mogilskie 03",
+                        "code": "802-3t",
+                        "on-demand": false,
+                        "time": "17",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "31"
+                                ],
+                                "13": [
+                                    "31"
+                                ],
+                                "14": [
+                                    "31"
+                                ],
+                                "15": [
+                                    "31"
+                                ],
+                                "16": [
+                                    "31"
+                                ],
+                                "17": [
+                                    "31"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "13": {
+                        "name": "Rondo Grzegórzeckie 01",
+                        "code": "809-1t",
+                        "on-demand": false,
+                        "time": "20",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "34"
+                                ],
+                                "13": [
+                                    "34"
+                                ],
+                                "14": [
+                                    "34"
+                                ],
+                                "15": [
+                                    "34"
+                                ],
+                                "16": [
+                                    "34"
+                                ],
+                                "17": [
+                                    "34"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "14": {
+                        "name": "Teatr Variété 01",
+                        "code": "810-1t",
+                        "on-demand": false,
+                        "time": "21",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "35"
+                                ],
+                                "13": [
+                                    "35"
+                                ],
+                                "14": [
+                                    "35"
+                                ],
+                                "15": [
+                                    "35"
+                                ],
+                                "16": [
+                                    "35"
+                                ],
+                                "17": [
+                                    "35"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "15": {
+                        "name": "Nullo 01",
+                        "code": "811-1t",
+                        "on-demand": false,
+                        "time": "22",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "36"
+                                ],
+                                "13": [
+                                    "36"
+                                ],
+                                "14": [
+                                    "36"
+                                ],
+                                "15": [
+                                    "36"
+                                ],
+                                "16": [
+                                    "36"
+                                ],
+                                "17": [
+                                    "36"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "16": {
+                        "name": "Fabryczna 01",
+                        "code": "812-1t",
+                        "on-demand": false,
+                        "time": "23",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "37"
+                                ],
+                                "13": [
+                                    "37"
+                                ],
+                                "14": [
+                                    "37"
+                                ],
+                                "15": [
+                                    "37"
+                                ],
+                                "16": [
+                                    "37"
+                                ],
+                                "17": [
+                                    "37"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "17": {
+                        "name": "Ofiar Dąbia 01",
+                        "code": "813-1t",
+                        "on-demand": false,
+                        "time": "24",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "38"
+                                ],
+                                "13": [
+                                    "38"
+                                ],
+                                "14": [
+                                    "38"
+                                ],
+                                "15": [
+                                    "38"
+                                ],
+                                "16": [
+                                    "38"
+                                ],
+                                "17": [
+                                    "38"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "18": {
+                        "name": "Dąbie 01",
+                        "code": "814-1t",
+                        "on-demand": false,
+                        "time": "25",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "39"
+                                ],
+                                "13": [
+                                    "39"
+                                ],
+                                "14": [
+                                    "39"
+                                ],
+                                "15": [
+                                    "39"
+                                ],
+                                "16": [
+                                    "39"
+                                ],
+                                "17": [
+                                    "39"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "19": {
+                        "name": "TAURON Arena Kraków Al. Pokoju 01",
+                        "code": "112-1t",
+                        "on-demand": false,
+                        "time": "27",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "41"
+                                ],
+                                "13": [
+                                    "41"
+                                ],
+                                "14": [
+                                    "41"
+                                ],
+                                "15": [
+                                    "41"
+                                ],
+                                "16": [
+                                    "41"
+                                ],
+                                "17": [
+                                    "41"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "20": {
+                        "name": "Ogród Doświadczeń 01",
+                        "code": "885-1t",
+                        "on-demand": false,
+                        "time": "29",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "43"
+                                ],
+                                "13": [
+                                    "43"
+                                ],
+                                "14": [
+                                    "43"
+                                ],
+                                "15": [
+                                    "43"
+                                ],
+                                "16": [
+                                    "43"
+                                ],
+                                "17": [
+                                    "43"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "21": {
+                        "name": "Rondo 308. Dywizjonu 01",
+                        "code": "115-1t",
+                        "on-demand": false,
+                        "time": "31",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "45"
+                                ],
+                                "13": [
+                                    "45"
+                                ],
+                                "14": [
+                                    "45"
+                                ],
+                                "15": [
+                                    "45"
+                                ],
+                                "16": [
+                                    "45"
+                                ],
+                                "17": [
+                                    "45"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "22": {
+                        "name": "Gałczyńskiego 01",
+                        "code": "116-1t",
+                        "on-demand": false,
+                        "time": "32",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "46"
+                                ],
+                                "13": [
+                                    "46"
+                                ],
+                                "14": [
+                                    "46"
+                                ],
+                                "15": [
+                                    "46"
+                                ],
+                                "16": [
+                                    "46"
+                                ],
+                                "17": [
+                                    "46"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "23": {
+                        "name": "Rondo Czyżyńskie 01",
+                        "code": "103-1t",
+                        "on-demand": false,
+                        "time": "35",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "49"
+                                ],
+                                "13": [
+                                    "49"
+                                ],
+                                "14": [
+                                    "49"
+                                ],
+                                "15": [
+                                    "49"
+                                ],
+                                "16": [
+                                    "49"
+                                ],
+                                "17": [
+                                    "49"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "24": {
+                        "name": "Os. Kolorowe 01",
+                        "code": "104-1t",
+                        "on-demand": false,
+                        "time": "36",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "50"
+                                ],
+                                "13": [
+                                    "50"
+                                ],
+                                "14": [
+                                    "50"
+                                ],
+                                "15": [
+                                    "50"
+                                ],
+                                "16": [
+                                    "50"
+                                ],
+                                "17": [
+                                    "50"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "25": {
+                        "name": "Plac Centralny im. R. Reagana 04",
+                        "code": "105-4t",
+                        "on-demand": false,
+                        "time": "39",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "53"
+                                ],
+                                "13": [
+                                    "53"
+                                ],
+                                "14": [
+                                    "53"
+                                ],
+                                "15": [
+                                    "53"
+                                ],
+                                "16": [
+                                    "53"
+                                ],
+                                "17": [
+                                    "53"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "26": {
+                        "name": "Os. Na Skarpie 01",
+                        "code": "188-1t",
+                        "on-demand": false,
+                        "time": "40",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "54"
+                                ],
+                                "13": [
+                                    "54"
+                                ],
+                                "14": [
+                                    "54"
+                                ],
+                                "15": [
+                                    "54"
+                                ],
+                                "16": [
+                                    "54"
+                                ],
+                                "17": [
+                                    "54"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "27": {
+                        "name": "Klasztorna 01",
+                        "code": "189-1t",
+                        "on-demand": false,
+                        "time": "42",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "56"
+                                ],
+                                "13": [
+                                    "56"
+                                ],
+                                "14": [
+                                    "56"
+                                ],
+                                "15": [
+                                    "56"
+                                ],
+                                "16": [
+                                    "56"
+                                ],
+                                "17": [
+                                    "56"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "28": {
+                        "name": "Suche Stawy 01",
+                        "code": "210-1t",
+                        "on-demand": false,
+                        "time": "43",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "57"
+                                ],
+                                "13": [
+                                    "57"
+                                ],
+                                "14": [
+                                    "57"
+                                ],
+                                "15": [
+                                    "57"
+                                ],
+                                "16": [
+                                    "57"
+                                ],
+                                "17": [
+                                    "57"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "29": {
+                        "name": "Bardosa 01",
+                        "code": "211-1t",
+                        "on-demand": false,
+                        "time": "44",
+                        "departures": {
+                            "Święta": {
+                                "12": [
+                                    "58"
+                                ],
+                                "13": [
+                                    "58"
+                                ],
+                                "14": [
+                                    "58"
+                                ],
+                                "15": [
+                                    "58"
+                                ],
+                                "16": [
+                                    "58"
+                                ],
+                                "17": [
+                                    "58"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "30": {
+                        "name": "Fort Mogiła 01",
+                        "code": "889-1t",
+                        "on-demand": true,
+                        "time": "46",
+                        "departures": {
+                            "Święta": {
+                                "13": [
+                                    "00"
+                                ],
+                                "14": [
+                                    "00"
+                                ],
+                                "15": [
+                                    "00"
+                                ],
+                                "16": [
+                                    "00"
+                                ],
+                                "17": [
+                                    "00"
+                                ],
+                                "18": [
+                                    "00"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "31": {
+                        "name": "Brama nr 4 01",
+                        "code": "213-1t",
+                        "on-demand": true,
+                        "time": "47",
+                        "departures": {
+                            "Święta": {
+                                "13": [
+                                    "01"
+                                ],
+                                "14": [
+                                    "01"
+                                ],
+                                "15": [
+                                    "01"
+                                ],
+                                "16": [
+                                    "01"
+                                ],
+                                "17": [
+                                    "01"
+                                ],
+                                "18": [
+                                    "01"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "32": {
+                        "name": "Giedroycia 01",
+                        "code": "214-1t",
+                        "on-demand": true,
+                        "time": "48",
+                        "departures": {
+                            "Święta": {
+                                "13": [
+                                    "02"
+                                ],
+                                "14": [
+                                    "02"
+                                ],
+                                "15": [
+                                    "02"
+                                ],
+                                "16": [
+                                    "02"
+                                ],
+                                "17": [
+                                    "02"
+                                ],
+                                "18": [
+                                    "02"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "33": {
+                        "name": "Brama nr 5 01",
+                        "code": "215-1t",
+                        "on-demand": true,
+                        "time": "49",
+                        "departures": {
+                            "Święta": {
+                                "13": [
+                                    "03"
+                                ],
+                                "14": [
+                                    "03"
+                                ],
+                                "15": [
+                                    "03"
+                                ],
+                                "16": [
+                                    "03"
+                                ],
+                                "17": [
+                                    "03"
+                                ],
+                                "18": [
+                                    "03"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "34": {
+                        "name": "Meksyk 01",
+                        "code": "216-1t",
+                        "on-demand": true,
+                        "time": "50",
+                        "departures": {
+                            "Święta": {
+                                "13": [
+                                    "04"
+                                ],
+                                "14": [
+                                    "04"
+                                ],
+                                "15": [
+                                    "04"
+                                ],
+                                "16": [
+                                    "04"
+                                ],
+                                "17": [
+                                    "04"
+                                ],
+                                "18": [
+                                    "04"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "35": {
+                        "name": "Koksochemia 01",
+                        "code": "217-1t",
+                        "on-demand": true,
+                        "time": "51",
+                        "departures": {
+                            "Święta": {
+                                "13": [
+                                    "05"
+                                ],
+                                "14": [
+                                    "05"
+                                ],
+                                "15": [
+                                    "05"
+                                ],
+                                "16": [
+                                    "05"
+                                ],
+                                "17": [
+                                    "05"
+                                ],
+                                "18": [
+                                    "05"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    },
+                    "36": {
+                        "name": "Pleszów 01",
+                        "code": "218-1t",
+                        "on-demand": false,
+                        "time": "53",
+                        "departures": {
+                            "Święta": {
+                                "13": [
+                                    "07"
+                                ],
+                                "14": [
+                                    "07"
+                                ],
+                                "15": [
+                                    "07"
+                                ],
+                                "16": [
+                                    "07"
+                                ],
+                                "17": [
+                                    "07"
+                                ],
+                                "18": [
+                                    "07"
+                                ]
+                            }
+                        },
+                        "departure-merges": {}
+                    }
+                },
+                "departure-notes": {}
+            }
+        }
+    }
+}
