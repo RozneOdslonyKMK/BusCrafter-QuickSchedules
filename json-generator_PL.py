@@ -226,9 +226,9 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
                     sorted_minutes = sorted(list(hours_dict[h]))
                     departures_sorted[day_type][str(h)] = sorted_minutes
 
-            if stop_on_demand == 0:
+            if stop_on_demand == "0":
                 stop_on_demand = False
-            if stop_on_demand == 1:
+            if stop_on_demand == "1":
                 stop_on_demand = True
 
             stops_dict[str(stop_order)] = {
