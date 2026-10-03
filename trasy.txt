@@ -15,7 +15,7 @@
     28.09.2025
         DAJWÓR - Św. Wawrzyńca, Na Zjeździe, Kalwaryjska, Krakowska, Św. Gertrudy, Pl. Dominikański, Franciszkańska, Zwierzyniecka, Kościuszki - SALWATOR
         SALWATOR - Kościuszki, Zwierzyniecka, Pl. Wszystkich Św., Św. Gertrudy, Starowiślna, Św. Wawrzyńca - DAJWÓR
-    od 07.06.2026
+    07.06.2026 - 27.09.2026
         DAJWÓR - Św. Wawrzyńca, Na Zjeździe, Kalwaryjska, Krakowska, Św. Gertrudy, Pl. Dominikański, Franciszkańska, Piłsudskiego, al. 3 Maja, Igrców - CICHY KĄCIK
         CICHY KĄCIK - Igrców, al. 3 Maja, Piłsudskiego, Straszewskiego, Pl. Wszystkich Św., Św. Gertrudy, Starowiślna, Św. Wawrzyńca - DAJWÓR
 
@@ -35,6 +35,9 @@
 
 2
     Stała
+        KURDWANÓW P+R - Witosa, Trasa Łagiewnicka, Zakopiańska, Wadowicka, Kalwaryjska, Krakowska, Św. Gertrudy, Westerplatte, Lubicz, Rakowicka - CMENTARZ RAKOWICKI
+        CMENTARZ RAKOWICKI - Rakowicka, Lubicz, Westerplatte, Św. Gertrudy, Stradomska, Krakowska, Legionów Piłsudskiego, Kalwaryjska, Wadowicka, Zakopiańska, Trasa Łagiewnicka, Witosa - KURDWANÓW P+R
+    do 25.09.2026 (Stała)
         SALWATOR - Kościuszki, Zwierzyniecka, Podwale, Basztowa, Lubicz, Rakowicka - CMENTARZ RAKOWICKI
         CMENTARZ RAKOWICKI - Rakowicka, Lubicz, Basztowa, Dunajewskiego, Straszewskiego, Zwierzyniecka, Kościuszki - SALWATOR
 
@@ -81,6 +84,9 @@
 
 5
     Stała
+        WZGÓRZA KRZESŁAWICKIE - Kocmyrzowska, Bieńczycka, al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Basztowa, Długa, al. Słowackiego, Prądnicka, Doktora Twardego, Ździebły-Danowskiego, Sosabowskiego, Pachońskiego, Siewna, Bociana, Jantar, Papierni Prądnickich - GÓRKA NARODOWA P+R
+        GÓRKA NARODOWA P+R - Papierni Prąnickich, Jantar, Bociana, Siewna, Pachońskiego, Sosabowskiego, Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Kamienna, al. Słowackiego, Długa, Basztowa, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Bieńczycka, Kocmyrzowska - WZGÓRZA KRZESŁAWICKIE
+    do 25.09.2026 (Stała)
         WZGÓRZA KRZESŁAWICKIE - Kocmyrzowska, Bieńczycka, al. Jana Pawła II, Mogilska, Tunel, Prądnicka, Doktora Twardego - KROWODRZA GÓRKA P+R
         KROWODRZA GÓRKA P+R - Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Tunel, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Bieńczycka, Kocmyrzowska - WZGÓRZA KRZESŁAWICKIE
     19.06.2025 - 10.10.2025
@@ -95,10 +101,18 @@
 
 6
     Stała
+        MAŁY PŁASZÓW P+R - Lipska, Estakada, Wielicka, Limanowskiego, Kalwaryjska, Krakowska, Św. Gertrudy, Pl. Dominikański, Franciszkańska, Zwierzyniecka, Kościuszki - SALWATOR
+        SALWATOR - Kościuszki, Zwierzyniecka, Pl. Wszystkich Św., Św. Gertrudy, Stradomska, Krakowska, Legionów Piłsudskiego, Limanowskiego, Wielicka, Estakada, Lipska - MAŁY PŁASZÓW P+R
+    do 25.09.2026 (Stała)
         MAŁY PŁASZÓW P+R - Lipska, Estakada, Wielicka, Limanowskiego, Kalwaryjska, Krakowska, Św. Gertrudy, Pl. Dominikański, Franciszkańska, Straszewskiego, Piłsudskiego, al. 3 Maja - CICHY KĄCIK
         CICHY KĄCIK - al. 3 Maja, Piłsudskiego, Straszewskiego, Pl. Wszystkich Św., Św. Gertrudy, Stradomska, Krakowska, Legionów Piłsudskiego, Limanowskiego, Wielicka, Estakada, Lipska - MAŁY PŁASZÓW P+R
 
 7
+    Stała
+        GÓRKA NARODOWA P+R - Papierni Prądnickich, Jantar, Bociana, Siewna, Pachońskiego, Sosabowskiego, Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Tunel, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Saska, Estakada, Wielicka, Nowosądecka, Witosa, Trasa Łagiewnicka, Zakopiańska - BOREK FAŁĘCKI
+        BOREK FAŁĘCKI - Zakopiańska, Trasa Łagiewnicka, Witosa, Nowosądecka, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Tunel, Prądnicka, Doktora Twardego, Ździebły-Danowskiego, Sosabowskiego, Pachońskiego, Siewna, Bociana, Jantar, Papierni Prądnickich - GÓRKA NARODOWA P+R
+        GÓRKA NARODOWA P+R - Papierni Prądnickich, Jantar, Bociana, Siewna, Pachońskiego, Sosabowskiego, Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Tunel, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Saska, Estakada, Wielicka, Nowosądecka, Witosa - KURDWANÓW P+R
+        KURDWANÓW P+R - Witosa, Nowosądecka, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Tunel, Prądnicka, Doktora Twardego, Ździebły-Danowskiego, Sosabowskiego, Pachońskiego, Siewna, Bociana, Jantar, Papierni Prądnickich - GÓRKA NARODOWA P+R
     26.06.2005
         DĄBIE - Al. Pokoju, Grzegórzecka, Dietla, Starowiślna, Pl. Dominikański, Franciszkańska, Podwale, Basztowa, Długa, Kamienna, Doktora Twardego - KROWODRZA GÓRKA
         KROWODRZA GÓRKA - Doktora Twardego, Kamienna, Długa, Basztowa, Dunajewskiego, Straszewskiego, Pl. Wszystkich Św., Św. Gertrudy, Starowiślna, Dietla, Grzegórzecka, Al. Pokoju - DĄBIE
@@ -129,9 +143,12 @@
 
 9
     Stała
+        MISTRZEJOWICE - Jancarza, Bohomolca, Dobrego Pasterza, Młyńska, Meissnera, Mogilska, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Estakada, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R
+        NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Rondo Mogilskie, Mogilska, Meissnera, Młyńska, Dobrego Pasterza, Bohomolca, Jancarza - MISTRZEJOWICE
+    do 25.09.2026 (Stała)
         MISTRZEJOWICE - Jancarza, Srebrnych Orłów, Mikołajczyka, Broniewskiego, al. Andersa, Bieńczycka, al. Jana Pawła II, Mogilska, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Estakada, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R
         NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Bieńczycka, al. Andersa, Broniewskiego, Mikołajczyka, Srebrnych Orłów, Jancarza - MISTRZEJOWICE
-    Obecna
+    do 25.09.2026
         RONDO HIPOKRATESA - Broniewskiego, al. Andersa, Bieńczycka, al. Jana Pawła II, Mogilska, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Saska, Estakada, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R
         NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Bieńczycka, al. Andersa, Broniewskiego - RONDO HIPOKRATESA
     11.07.2026 - 14.07.2026
@@ -140,6 +157,9 @@
 
 10
     Stała
+        PLESZÓW - Igołomska, Ptaszyckiego, al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Basztowa, Dunajewskiego, Straszewskiego, Zwierzyniecka, Kościuszki - SALWATOR
+        SALWATOR - Kościuszki, Zwierzyniecka, Podwale, Basztowa, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Ptaszyckiego, Igołomska - PLESZÓW
+    do 25.09.2026 (Stała)
         PLESZÓW - Igołomska, Ptaszyckiego, al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Westerplatte, Św. Gertrudy, Stradomska, Krakowska, Legionów Piłsudskiego, Kalwaryjska, Wadowicka, Zakopiańska, Trasa Łagiewnicka, Witosa - KURDWANÓW P+R
         KURDWANÓW P+R - Witosa, Trasa Łagiewnicka, Zakopiańska, Wadowicka, Kalwaryjska, Krakowska, Św. Gertrudy, Westerplatte, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Ptaszyckiego, Igołomska - PLESZÓW
     do 03.07.2026
@@ -166,6 +186,11 @@
         MAŁY PŁASZÓW P+R - Lipska, Estakada, Wielicka, Nowosądecka, Witosa, Trasa Łagiewnicka, Zakopiańska, Brożka, Grota-Roweckiego, Bobrzyńskiego - CZERWONE MAKI P+R
         CZERWONE MAKI P+R - Bobrzyńskiego, Grota-Roweckiego, Brożka, Zakopiańska, Trasa Łagiewnicka, Witosa, Nowosądecka, Wielicka, Estakada, Lipska - MAŁY PŁASZÓW P+R
 
+12
+    Stała
+        CZERWONE MAKI P+R - Czerwone Maki, Bobrzyńskiego, Grota-Roweckiego, Kapelanka, Monte Cassino, Dietla, Starowiślna, Westerplatte, Lubicz, Rondo Mogilskie, Mogilska, Meissnera, Młyńska, Dobrego Pasterza, Bohomolca, Jancarza, Srebrnych Orłów, Piasta Kołodzieja - OS. PIASTÓW
+        OS. PIASTÓW - Piasta Kołodzieja, Srebrnych Orłów, Jancarza, Bohomolca, Dobrego Pasterza, Młyńska, Meissnera, Mogilska, Rondo Mogilskie, Lubicz, Westerplatte, Starowiślna, Dietla, Monte Cassino, Kapelanka, Grota-Roweckiego, Bobrzyńskiego, Czerwone Maki - CZERWONE MAKI P+R
+
 13
     Stała
         NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Limanowskiego, Kalwaryjska, Krakowska, Św. Gertrudy, Pl. Dominikański, Franciszkańska, Podwale, Karmelicka, Królewska, Podchorążych - BRONOWICE
@@ -187,6 +212,9 @@
 
 15
     Stała
+        OS. PIASTÓW - Piasta Kołodzieja, Mikołajczyka, Broniewskiego, al. Andersa, Bieńczycka, al. Jana Pawła II, Mogilska, Tunel, Prądnicka, Doktora Twardego - KROWODRZA GÓRKA P+R
+        KROWODRZA GÓRKA P+R - Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Tunel, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Bieńczycka, al. Andersa, Broniewskiego, Mikołajczyka, Piasta Kołodzieja - OS. PIASTÓW
+    do 25.09.2025 (Stała Muzealna)
         PLESZÓW - Igołomska, Ujastek Mogilski, Ujastek, al. Solidarności, al. Jana Pawła II, al. Pokoju, al. Powstania Warszawskiego, Lubicz, Basztowa, Dunajewskiego, Piłsudskiego, al. 3 Maja - CICHY KĄCIK
         CICHY KĄCIK - al. 3 Maja, Piłsudskiego, Podwale, Basztowa, Lubicz, al. Powstania Warszawskiego, al. Pokoju, al. Jana Pawła II, al. Solidarności, Ujastek Mogilski, Igołomska - PLESZÓW
     23.08.2026
@@ -195,6 +223,9 @@
     
 16
     Stała
+        PLESZÓW - Igołomska, Ujastek Mogilski, Ujastek, al. Solidarności, al. Andersa, Broniewskiego, Mikołajczyka, Srebrnych Orłów, Jancarza, Bohomolca, Dobrego Pasterza, Młyńska, Meissnera, Mogilska, Tunel - DWORZEC TOWAROWY
+        DWORZEC TOWAROWY - Tunel, Rondo Mogilskie, Mogilska, Meissnera, Młyńska, Dobrego Pasterza, Bohomolca, Jancarza, Srebrnych Orłów, Mikołajczyka, Broniewskiego, al. Andersa, al. Solidarności, Ujastek Mogilski, Igołomska - PLESZÓW
+    do 25.09.2026 (Stała)
         MISTRZEJOWICE - Jancarza, Srebrnych Orłów, Mikołajczyka, Broniewskiego, al. Andersa, al. Jana Pawła II, Ptaszyckiego - BARDOSA
         BARDOSA - Ptaszyckiego, al. Jana Pawła II, al. Andersa, Broniewskiego, Mikołajczyka, Srebrnych Orłów, Jancarza - MISTRZEJOWICE
     30.05.2026 - 03.07.2026
@@ -226,6 +257,9 @@
 
 19
     Stała
+        NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Bieńczycka, Kocmyrzowska - WZGÓRZA KRZESŁAWICKIE
+        WZGÓRZA KRZESŁAWICKIE - Kocmyrzowska, Bieńczycka, al. Jana Pawła II, Mogilska, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Estakada, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R
+    do 25.09.2026 (Stała)
         BOREK FAŁĘCKI - Zakopiańska, Wadowicka, Kalwaryjska, Na Zjeździe, Starowiślna, Dietla, Grzegórzecka, al. Powstania Warszawskiego, Tunel - DWORZEC TOWAROWY
         DWORZEC TOWAROWY - Tunel, al. Powstania Warszawskiego, Grzegórzecka, Dietla, Starowiślna, Na Zjeździe, Kalwaryjska, Wadowicka, Zakopiańska - BOREK FAŁĘCKI
 
@@ -243,6 +277,9 @@
 
 21
     Stała
+        OS. PIASTÓW - Piasta Kołodzieja, Mikołajczyka, Broniewskiego, al. Andersa, al. Jana Pawła II, Ptaszyckiego - BARDOSA
+        BARDOSA - Ptaszyckiego, al. Jana Pawła II, al. Andersa, Broniewskiego, Mikołajczyka, Piasta Kołodzieja - OS. PIASTÓW
+    do 25.09.2026 (Stała)
         PLESZÓW - Igołomska, Ujastek Mogilski, Ujastek, al. Solidarności, al. Andersa, Broniewskiego, Mikołajczyka, Piasta Kołodzieja - OS. PIASTÓW
         OS. PIASTÓW - Piasta Kołodzieja, Mikołajczyka, Broniewskiego, al. Andersa, al. Solidarności, Ujastek Mogilski, Igołomska - PLESZÓW
     30.05.2026 - 05.07.2026
@@ -323,6 +360,9 @@
     14.09.2025
         BARDOSA - Ptaszyckiego, al. Jana Pawła II, al. Andersa, Broniewskiego, Mikołajczyka, Piasta Kołodzieja - OS. PIASTÓW
         OS. PIASTÓW - Piasta Kołodzieja, Mikołajczyka, Broniewskiego, al. Andersa, al. Jana Pawła II, Ptaszyckiego - BARDOSA
+    20.09.2026
+        OS. PIASTÓW - Piasta Kołodzieja, Mikołajczyka, Broniewskiego, al. Andersa, al. Jana Pawła II, Ptaszyckiego - BARDOSA
+        BARDOSA - Ptaszyckiego, al. Jana Pawła II, al. Andersa, Broniewskiego, Mikołajczyka, Piasta Kołodzieja - OS. PIASTÓW
 
 47
     05.07.2026
@@ -347,7 +387,7 @@
         KROWODRZA GÓRKA P+R - Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Tunel, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Saska, Estakada, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R
 
 50
-    Stała
+    do 25.09.2026 (Stała)
         GÓRKA NARODOWA P+R - Papierni Prądnickich, Jantar, Bociana, Siewna, Pachońskiego, Sosabowskiego, Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Tunel, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Saska, Estakada, Wielicka, Nowosądecka, Witosa, Trasa Łagiewnicka, Zakopiańska - BOREK FAŁĘCKI
         BOREK FAŁĘCKI - Zakopiańska, Trasa Łagiewnicka, Witosa, Nowosądecka, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Tunel, Prądnicka, Doktora Twardego, Ździebły-Danowskiego, Sosabowskiego, Pachońskiego, Siewna, Bociana, Jantar, Papierni Prądnickich - GÓRKA NARODOWA P+R
         GÓRKA NARODOWA P+R - Papierni Prądnickich, Jantar, Bociana, Siewna, Pachońskiego, Sosabowskiego, Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Tunel, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Saska, Estakada, Wielicka, Nowosądecka, Witosa - KURDWANÓW P+R
@@ -360,7 +400,7 @@
         TAURON ARENA KRAKÓW WIECZYSTA - Mogilska, Rondo Mogilskie, Lubicz, Westerplatte, Starowiślna, Na Zjeździe, Limanowskiego, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R
 
 52
-    Stała
+    do 25.09.2026 (Stała)
         CZERWONE MAKI P+R - Czerwone Maki, Bobrzyńskiego, Grota-Roweckiego, Kapelanka, Monte Cassino, Dietla, Starowiślna, Westerplatte, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Bieńczycka, al. Andersa, Broniewskiego, Mikołajczyka, Piasta Kołodzieja - OS. PIASTÓW
         OS. PIASTÓW - Piasta Kołodzieja, Mikołajczyka, Broniewskiego, al. Andersa, Bieńczycka, al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Westerplatte, Starowiślna, Dietla, Monte Cassino, Kapelanka, Grota-Roweckiego, Bobrzyńskiego, Czerwone Maki - CZERWONE MAKI P+R
     remont Mostu Grunwaldzkiego
@@ -424,9 +464,12 @@
     13.07.2026 - 14.07.2026
         CICHY KĄCIK - Igrców, al. 3 Maja, Piłsudskiego, Straszewskiego, Pl. Wszystkich Św., Św. Gertrudy, Westerplatte, Basztowa, Długa, al. Słowackiego, Prądnicka, Doktora Twardego, Ździebły-Danowskiego, Sosabowskiego, Pachońskiego, Siewna, Bociana, Jantar, Papierni Prądnickich - GÓRKA NARODOWA P+R
         GÓRKA NARODOWA P+R - Papierni Prądnickich, Jantar, Bociana, Siewna, Pachońskiego, Sosabowskiego, Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Kamienna, al. Słowackiego, Długa, Basztowa, Westerplatte, Pl. Dominikański, Franciszkańska, Piłsudskiego, al. 3 Maja, Igrców - CICHY KĄCIK
-    od 17.08.2026
+    17.08.2026 - 30.08.2026
         MAŁY PŁASZÓW P+R - Lipska, Saska, Estakada, Wielicka, Nowosądecka, Witosa, Trasa Łagiewnicka, Zakopiańska, Wadowicka, Kalwaryjska, Krakowska, Św. Gertrudy, Pl. Dominikański, Franciszkańska, Zwierzyniecka, Kościuszki - SALWATOR
         SALWATOR - Kościuszki, Zwierzyniecka, Pl. Wszystkich Św., Św. Gertrudy, Stradomska, Krakowska, Legionów Piłsudskiego, Kalwaryjska, Wadowicka, Zakopiańska, Trasa Łagiewnicka, Witosa, Nowosądecka, Wielicka, Estakada, Lipska - MAŁY PŁASZÓW P+R
+    od 26.09.2026
+        PLESZÓW - Igołomska, Ptaszyckiego, al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Westerplatte, Św. Gertrudy, Stradomska, Krakowska, Legionów Piłsudskiego, Kalwaryjska, Wadowicka, Zakopiańska, Trasa Łagiewnicka, Witosa - KURDWANÓW P+R
+        KURDWANÓW P+R - Witosa, Trasa Łagiewnicka, Zakopiańska, Wadowicka, Kalwaryjska, Krakowska, Św. Gertrudy, Westerplatte, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Ptaszyckiego, Igołomska - PLESZÓW
 
 71
     15.03.2025 - 09.05.2025
@@ -442,7 +485,7 @@
         RONDO GRUNWALDZKIE - Monte Cassino, Kapelanka, Grota-Roweckiego, Bobrzyńskiego - CZERWONE MAKI P+R
 
 73
-    od 17.08.2026
+    17.08.2026 - 30.08.2026
         NOWY BIEŻANÓW P+R - Ćwiklińskiej, Teligi, Wielicka, Estakada, Kuklińskiego, Herlinga-Grudzińskiego, al. Powstania Warszawskiego, Lubicz, Westerplatte, Starowiślna, Na Zjeździe, Kalwaryjska, Wadowicka, Brożka, Grota-Roweckiego, Bobrzyńskiego, Czerwone Maki - CZERWONE MAKI P+R
         CZERWONE MAKI P+R - Czerwone Maki, Bobrzyńskiego, Grota-Roweckiego, Brożka, Wadowicka, Kalwaryjska, Na Zjeździe, Starowiślna, Westerplatte, Lubicz, al. Powstania Warszawskiego, Kotlarska, Herlinga-Grudzińskiego, Kuklińskiego, Saska, Estakada, Wielicka, Teligi, Ćwiklińskiej - NOWY BIEŻANÓW P+R
 
@@ -472,7 +515,7 @@
         GÓRKA NARODOWA P+R - Bociana, Siewna, Pachońskiego, Sosabowskiego, Doktora Twardego, Prądnicka, Kamienna, al. Słowackiego, Długa, Basztowa, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II, Ptaszyckiego - BARDOSA
     25.04.2026 - 05.06.2026
     06.07.2026 - 16.08.2026
-    od 31.08.2026
+    31.08.2026 - 25.09.2026
         KOPIEC WANDY - Ujastek Mogilski, Ujastek, al. Solidarności, al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Basztowa, Długa, al. Słowackiego, Prądnicka, Doktora Twardego, Ździebły-Danowskiego, Sosabowskiego, Pachońskiego, Siewna, Bociana, Jantar, Papierni Prądnickich - GÓRKA NARODOWA P+R
         GÓRKA NARODOWA P+R - Papierni Prądnickich, Jantar, Bociana, Siewna, Pachońskiego, Sosabowskiego, Ździebły-Danowskiego, Doktora Twardego, Prądnicka, Kamienna, al. Słowackiego, Długa, Basztowa, Lubicz, Rondo Mogilskie, Mogilska, al. Jana Pawła II, al. Solidarności, Ujastek Mogilski - KOPIEC WANDY
         ZALEW NOWOHUCKI - al. Solidarności, al. Jana Pawła II, Mogilska, Rondo Mogilskie, Lubicz, Basztowa, Długa, al. Słowackiego, Prądnicka, Doktora Twardego, Ździebły-Danowskiego, Sosabowskiego, Pachońskiego, Siewna, Bociana, Jantar, Papierni Prądnickich - GÓRKA NARODOWA P+R
@@ -704,6 +747,9 @@
 
 124
     Stała
+        OS. PODWAWELSKIE - Barska, Monte Cassino, Konopnickiej, al. Krasińskiego, al. Mickiewicza, al. Słowackiego, Pawia, Wita Stwosza, Lubomirskiego, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Ułanów, Lema - TAURON ARENA KRAKÓW AL. POKOJU
+        TAURON ARENA KRAKÓW AL. POKOJU - Lema, al. Jana Pawła II, Ułanów, Pilotów, Łukasiewicza, al. Beliny-Prażmowskiego, Lubomirskiego, Wita Stwosza, Pawia, al. Słowackiego, al. Mickiewicza, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
+    do 25.09.2026 (Stała)
         OS. PODWAWELSKIE - Barska, Konopnickiej, al. Krasińskiego, Piłsudskiego, Podwale, Basztowa, Lubicz, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Ułanów, Meissnera - TAURON ARENA KRAKÓW WIECZYSTA
         TAURON ARENA KRAKÓW WIECZYSTA - Meissnera, Pilotów, Łukasiewicza, al. Beliny-Prażmowskiego, Lubicz, Basztowa, Dunajewskiego, Piłsudskiego, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
     od 06.06.2026
@@ -760,6 +806,9 @@
 
 132
     Stała
+        KOMBINAT - Ujastek, al. Solidarności, Wojciechowskiego, Mościckiego, Żeromskiego, Obrońców Krzyża, Broniewskiego, al. Andersa, al. Bora-Komorowskiego, Dobrego Pasterza, al. 29 Listopada, Warszawska, Ogrodowa - DWORZEC GŁÓWNY ZACHÓD
+        DWORZEC GŁÓWNY ZACHÓD - Ogrodowa, Pawia, al. 29 Listopada, Dobrego Pasterza, al. Bora Komorowskiego, al. Andersa, Broniewskiego, Obrońców Krzyża, Mościckiego, Wojciechowskiego, al. Solidarności, Ujastek - KOMBINAT
+    do 25.09.2026 (Stała)
         KOMBINAT - Ujastek, al. Solidarności, Wojciechowskiego, Mościckiego, Żeromskiego, Obrońców Krzyża, Mikołajczyka, Srebrnych Orłów, Jancarza, Bohomolca, Dobrego Pasterza, al. 29 Listopada, Warszawska, Ogrodowa - DWORZEC GŁÓWNY ZACHÓD
         DWORZEC GŁÓWNY ZACHÓD - Ogrodowa, Pawia, al. 29 Listopada, Dobrego Pasterza, Bohomolca, Jancarza, Srebrnych Orłów, Mikołajczyka, Obrońców Krzyża, Mościckiego, Wojciechowskiego, al. Solidarności, Ujastek - KOMBINAT
 
@@ -1071,6 +1120,9 @@
 
 182
     Stała
+        OS. NA STOKU - Architektów, Poległych w Krzesławicach, Władysława Jagiełły, Petőfiego, Okulickiego, Kruszwicka, Srebrnych Orłów, Jancarza - MISTRZEJOWICE
+        MISTRZEJOWICE - Jancarza, Srebrnych Orłów, Piasta Kołodzieja, Okulickiego, Petőfiego, Władysława Jagiełły, Architektów - OS. NA STOKU
+    do 25.09.2026 (Stała)
         OS. NA STOKU - Architektów, Poległych w Krzesławicach, Władysława Jagiełły, Petőfiego, Okulickiego, Kruszwicka, Srebrnych Orłów, Jancarza, Bohomolca, Dobrego Pasterza, Lublańska, Młyńska, Pilotów, Olszyny, Brodowicza, Lubomirskiego, Wita Stwosza - DWORZEC GŁÓWNY WSCHÓD
         DWORZEC GŁÓWNY WSCHÓD - Wita Stwosza, Lubomirskiego, al. Beliny-Prażmowskiego, Brodowicza, Olszyny, Pilotów, Młyńska, Dobrego Pasterza, Bohomolca, Jancarza, Srebrnych Orłów, Piasta Kołodzieja, Okulickiego, Petőfiego, Władysława Jagiełły, Architektów - OS. NA STOKU
 
@@ -1094,7 +1146,7 @@
         STAROWIŚLNA - Dietla, Grzegórzecka, al. Powstania Warszawskiego, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Młyńska, Strzelców - PRĄDNIK CZERWONY P+R
 
 189
-    Stała
+    do 25.09.2026 (Stała)
         PLAC CENTRALNY IM. R. REAGANA - al. Andersa, al. Bora-Komorowskiego, Dobrego Pasterza, Lublańska, Młyńska, Pilotów, Olszyny, Brodowicza, Lubomirskiego, Wita Stwosza, Pawia, Prądnicka - NOWY KLEPARZ
         NOWY KLEPARZ - Prądnicka, al. Słowackiego, Pawia, Wita Stwosza, Lubomirskiego, al. Beliny-Prażmowskiego, Brodowicza, Olszyny, Pilotów, Młyńska, Dobrego Pasterza, al. Bora-Komorowskiego, al. Andersa - PLAC CENTRALNY IM. R. REAGANA
     do czerwca 2026
@@ -1416,6 +1468,9 @@
     Stała
         PRĄDNIK CZERWONY P+R - Strzelców, Reduta, Węgrzce ul. B1, Dziekanowice ul. Szmaragdowa, Batowice ul. Wojtyły, Raciborowice ul. Długosza, Zastów ul. Kościuszki - ZASTÓW PĘTLA
         ZASTÓW PĘTLA - Zastów ul. Kościuszki, Raciborowice ul. Długosza, Batowice ul. Wojtyły, Dziekanowice ul. Szmaragdowa, Węgrzce ul. B1, Reduta, Strzelców - PRĄDNIK CZERWONY P+R
+    do 25.09.2026 (Stała)
+        PRĄDNIK CZERWONY P+R - Strzelców, Reduta, Węgrzce ul. B1, Dziekanowice ul. Szmaragdowa, Batowice ul. Wojtyły, Raciborowice ul. Długosza, Zastów ul. Kościuszki - ZASTÓW PĘTLA
+        ZASTÓW PĘTLA - Zastów ul. Kościuszki, Raciborowice ul. Długosza, Batowice ul. Wojtyły, Dziekanowice ul. Szmaragdowa, Węgrzce ul. B1, Reduta, Strzelców - PRĄDNIK CZERWONY P+R
     17.04.2026 - 06.08.2026
         PRĄDNIK CZERWONY P+R - Strzelców, Reduta, Węgrzce ul. B1, Dziekanowice ul. Szmaragdowa, Batowice ul. Wojtyły, Zielonki ul. Wspólna, Batowice ul. Wojtyły, Raciborowice ul. Długosza, Zastów ul. Kościuszki - ZASTÓW PĘTLA
         ZASTÓW PĘTLA - Zastów ul. Kościuszki, Raciborowice ul. Długosza, Batowice ul. Wojtyły, Zielonki ul. Wspólna, Batowice ul. Wojtyły, Dziekanowice ul. Szmaragdowa, Węgrzce ul. B1, Reduta, Strzelców - PRĄDNIK CZERWONY P+R
@@ -1464,6 +1519,9 @@
 
 260
     Stała
+        MISTRZEJOWICE - Jancarza, Srebrnych Orłów, Piasta Kołodzieja, Batowice ul. Nawary, Batowice ul. Wojtyły, Raciborowice ul. Młyńska, Kończyce ul. Zawiszy Czarnego, Książniczki ul. Strumiłły, Młodziejowice ul. Harcerska, Młodziejowice ul. Kadrowa, Michałowice ul. Dąbrowskich, Michałowice ul. Krakowska, Masłomiąca ul. Długa, Więcławice Stare ul. św. Jakuba, Więcławice Dworskie ul. Lubicz, Zagórzyce Stare ul. Owocowa, Zagórzyce Dworskie, Zagórzyce Stare ul. Owocowa, Więcławice Dworskie ul. Lubicz, Więcławice Stare ul. Wysyłek, Pielgrzymowice ul. Centralna - PIELGRZYMOWICE PĘTLA
+        PIELGRZYMOWICE PĘTLA - Pielgrzymowice ul. Centralna, Więcławice Stare ul. Wysyłek, Więcławice Stare ul. św. Jakuba, Masłomiąca ul. Długa, Michałowice ul. Krakowska, Michałowice ul. Dąbrowskich, Młodziejowice ul. Kadrowa, Młodziejowice ul. Harcerska, Książniczki ul. Strumiłły, Kończyce ul. Zawiszy Czarnego, Raciborowice ul. Młyńska, Batowice ul. Wojtyły, Piasta Kołodzieja, Srebrnych Orłów, Jancarza - MISTRZEJOWICE
+    do 25.09.2026 (Stała)
         PRĄDNIK CZERWONY P+R - Strzelców, Powstańców, Batowice ul. Nawary, Batowice ul. Wojtyły, Raciborowice ul. Młyńska, Kończyce ul. Zawiszy Czarnego, Książniczki ul. Strumiłły, Młodziejowice ul. Harcerska, Młodziejowice ul. Kadrowa, Michałowice ul. Dąbrowskich, Michałowice ul. Krakowska, Masłomiąca ul. Długa, Więcławice Stare ul. św. Jakuba, Więcławice Dworskie ul. Lubicz, Zagórzyce Stare ul. Owocowa, Zagórzyce Dworskie, Zagórzyce Stare ul. Owocowa, Więcławice Dworskie ul. Lubicz, Więcławice Stare ul. Wysyłek, Pielgrzymowice ul. Centralna - PIELGRZYMOWICE PĘTLA
         PIELGRZYMOWICE PĘTLA - Pielgrzymowice ul. Centralna, Więcławice Stare ul. Wysyłek, Więcławice Stare ul. św. Jakuba, Masłomiąca ul. Długa, Michałowice ul. Krakowska, Michałowice ul. Dąbrowskich, Młodziejowice ul. Kadrowa, Młodziejowice ul. Harcerska, Książniczki ul. Strumiłły, Kończyce ul. Zawiszy Czarnego, Raciborowice ul. Młyńska, Batowice ul. Wojtyły, Powstańców, Strzelców - PRĄDNIK CZERWONY P+R
 
@@ -1519,8 +1577,12 @@
         RYBNA DOLNA - Rybna ul. Dolna, Rybna ul. Polańskiej, Rybna ul. Nowy Świat, Czułów, Mników ul. Pruszkowskiego, Cholerzyn, Budzyń, Kryspinów, Księcia Józefa, Kościuszki, Senatorska - SALWATROR
 
 270
-    PRĄDNIK CZERWONY P+R - Strzelców, Powstańców, Batowice ul. Nawary, Batowice ul. Wojtyły, Raciborowice ul. Długosza, Zastów ul. Kościuszki, Wiktorowice, Maciejowice, Wiktorowice, Pielgrzymowice ul. Centralna - PIELGRZYMOWICE PĘTLA
-    PIELGRZYMOWICE PĘTLA - Pielgrzymowice ul. Centralna, Wiktorowice, Zastów ul. Kościuszki, Raciborowice ul. Długosza, Batowice ul. Wojtyły, Powstańców, Strzelców - PRĄDNIK CZERWONY P+R
+    Stała
+        MISTRZEJOWICE - Jancarza, Srebrnych Orłów, Piasta Kołodzieja, Batowice ul. Nawary, Batowice ul. Wojtyły, Raciborowice ul. Długosza, Zastów ul. Kościuszki, Wiktorowice, Maciejowice, Wiktorowice, Pielgrzymowice ul. Centralna - PIELGRZYMOWICE PĘTLA
+        PIELGRZYMOWICE PĘTLA - Pielgrzymowice ul. Centralna, Wiktorowice, Zastów ul. Kościuszki, Raciborowice ul. Długosza, Batowice ul. Wojtyły, Piasta Kołodzieja, Srebrnych Orłów, Jancarza - MISTRZEJOWICE
+    do 25.09.2026 (Stała)
+        PRĄDNIK CZERWONY P+R - Strzelców, Powstańców, Batowice ul. Nawary, Batowice ul. Wojtyły, Raciborowice ul. Długosza, Zastów ul. Kościuszki, Wiktorowice, Maciejowice, Wiktorowice, Pielgrzymowice ul. Centralna - PIELGRZYMOWICE PĘTLA
+        PIELGRZYMOWICE PĘTLA - Pielgrzymowice ul. Centralna, Wiktorowice, Zastów ul. Kościuszki, Raciborowice ul. Długosza, Batowice ul. Wojtyły, Powstańców, Strzelców - PRĄDNIK CZERWONY P+R
 
 271
     Stała
@@ -1631,7 +1693,7 @@
 297
     Stała
         GÓRKA NARODOWA P+R - al. 29 Listopada, Węgrzce ul. Warszawska, Węgrzce ul. A1, Węgrzce ul. A4, Węgrzce ul. A9, Węgrzce ul. B4, Węgrzce ul. B1, Dziekanowice ul. Szmaragdowa, Dziekanowice ul. Długa, Dziekanowice ul. Szmaragdowa, Bosutów ul. Krakowska, Boleń ul. Lipowa - BOLEŃ PĘTLA
-        BOLEŃ PĘTLA - Boleń ul. Lipowa, Bosutów ul. Krakowska, Dziekanowice ul. Szmaragdowa, Dziekanowice ul. Długa, Dziekanowice ul. Szmaragdowa, Węgrzce ul B1, Węgrzce ul. B4, Węgrzce ul. A4, Węgrzce ul. Warszawska, al. 29 Listopada - GÓRKA NARODOWA P+R
+        BOLEŃ PĘTLA - Boleń ul. Lipowa, Bosutów ul. Krakowska, Dziekanowice ul. Szmaragdowa, Dziekanowice ul. Długa, Dziekanowice ul. Szmaragdowa, Węgrzce ul. B1, Węgrzce ul. B4, Węgrzce ul. A4, Węgrzce ul. Warszawska, al. 29 Listopada - GÓRKA NARODOWA P+R
     17.04.2026 - 06.09.2026
         GÓRKA NARODOWA P+R - al. 29 Listopada, Węgrzce ul. Warszawska, Węgrzce ul. A1, Węgrzce ul. A4, Węgrzce ul. A9, Węgrzce ul. B4, Węgrzce ul. B1, Bosutów ul. Krakowska, Boleń ul. Lipowa - BOLEŃ PĘTLA
         BOLEŃ PĘTLA - Boleń ul. Lipowa, Bosutów ul. Krakowska, Węgrzce ul B1, Węgrzce ul. B4, Węgrzce ul. A4, Węgrzce ul. Warszawska, al. 29 Listopada - GÓRKA NARODOWA P+R
@@ -1734,7 +1796,7 @@
         ZESŁAWICE - Morcinka, Kantorowicka, Osieckiego, Architektów, Zielony Jar, Władysława Jagiełły, Petőfiego, Nowolipki, Makuszyńskiego, Kocmyrzowska, al. Andersa - ALEJA PRZYJAŹNI
 
 424
-    Stała
+    do 25.09.2026 (Stała)
         OS. PODWAWELSKIE - Barska, Konopnickiej, al. Krasińskiego, Piłsudskiego, Podwale, Basztowa, Lubicz, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Meissnera, al. Jana Pawła II, Ułanów - UGOREK
         UGOREK - Ułanów, Pilotów, Łukasiewicza, al. Beliny-Prażmowskiego, Lubicz, Basztowa, Dunajewskiego, Piłsudskiego, al. Krasińskiego, Konopnickiej, Barska - OS. PODWAWELSKIE
     od 06.06.2026
@@ -1758,7 +1820,7 @@
     Stała
         BABA JAGA - al. Kasy Oszczędności Miasta Krakowa, al. Żubrowa - ZOO
         ZOO - al. Żubrowa, al. Kasy Oszczędności Miasta Krakowa - BABA JAGA
-Rydza-Śmigłego
+
 442
     Stała
         CMENTARZ PRĄDNIK CZERWONY - Powstańców, Strzelców, Dobrego Pasterza, al. Bora-Komorowskiego, Stella-Sawickiego, Medweckiego, Dąbrowskiej, al. Andersa, al. Przyjaźni, al. Solidarności, Ujastek, Mrozowa, Blokowa, Darwina, Kocmyrzowska, Architektów - OS. NA STOKU
@@ -1804,7 +1866,7 @@ Rydza-Śmigłego
         CZERWONE MAKI P+R - Czerwone Maki, Bunscha, Mochaniec, Skotnicka, Winnicka, Tyniecka, Dąbrowa - KOSTRZE OSP
 
 482
-    Stała
+    do 25.09.2026 (Stała)
         MISTRZEJOWICE - Jancarza, Bohomolca, Dobrego Pasterza, Lublańska, Młyńska, Pilotów, Olszyny, Brodowicza, Lubomirskiego, Wita Stwosza - DWORZEC GŁÓWNY WSCHÓD
         DWORZEC GŁÓWNY WSCHÓD - Wita Stwosza, Lubomirskiego, al. Beliny-Prażmowskiego, Brodowicza, Olszyny, Pilotów, Młyńska, Dobrego Pasterza, Bohomolca, Jancarza - MISTRZEJOWICE
 
@@ -1850,11 +1912,17 @@ Rydza-Śmigłego
 
 502
     Stała
+        PLAC CENTRALNY IM. R. REAGANA - al. Andersa, al. Bora-Komorowskiego, Pilotów, Olszyny, Lubicz, Basztowa, Prądnicka - NOWY KLEPARZ
+        NOWY KLEPARZ - Prądnicka, Długa, Basztowa, al. Beliny-Prażmowskiego, Olszyny, Młyńska, al. Bora-Komorowskiego, al. Andersa - PLAC CENTRALNY IM. R. REAGANA
+    do 25.09.2026 (Stała)
         ALEJA PRZYJAŹNI - al. Przyjaźni, al. Andersa, al. Bora-Komorowskiego, Młyńska, Pilotów, Olszyny, Lubicz, Basztowa, Dunajewskiego, Piłsudskiego, al. Krasińskiego, Kałuży - CRACOVIA STADION
         CRACOVIA STADION - Kałuży, Piłsudskiego, Podwale, Basztowa, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Młyńska, al. Bora-Komorowskiego, al. Andersa, al. Przyjaźni - ALEJA PRZYJAŹNI
-    Obecna
+    do 25.09.2026
         ALEJA PRZYJAŹNI - al. Przyjaźni, al. Andersa, al. Bora-Komorowskiego, Młyńska, Pilotów, Olszyny, Lubicz, Basztowa, Prądnicka - NOWY KLEPARZ
         NOWY KLEPARZ - Prądnicka, Długa, Basztowa, al. Beliny-Prażmowskiego, Olszyny, Pilotów, Młyńska, al. Bora-Komorowskiego, al. Andersa, al. Przyjaźni - ALEJA PRZYJAŹNI
+    od 26.09.2026
+        PLAC CENTRALNY IM. R. REAGANA - al. Andersa, al. Bora-Komorowskiego, Pilotów, Olszyny, Lubicz, Basztowa, Dunajewskiego, Piłsudskiego, al. Krasińskiego, Kałuży - CRACOVIA STADION
+        CRACOVIA STADION - Kałuży, Piłsudskiego, Podwale, Basztowa, al. Beliny-Prażmowskiego, Olszyny, Młyńska, al. Bora-Komorowskiego, al. Andersa - PLAC CENTRALNY IM. R. REAGANA
 
 503
     Stała
