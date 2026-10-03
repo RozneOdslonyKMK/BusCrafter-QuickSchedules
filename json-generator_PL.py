@@ -56,52 +56,80 @@ path = "./GTFS_KRK_T/"     # Możesz zmienić "GTFS_KRK_T" (dla tramwajów) na "
 routes = pd.read_csv(path + "routes.txt", dtype={'route_short_name': str, 'route_id': str})
 trips = pd.read_csv(path + "trips.txt")
 stop_times = pd.read_csv(path + "stop_times.txt", dtype={'departure_time': str})
-stops = pd.read_csv(path + "stops.txt", dtype={'stop_id': str, 'stop_code': str, 'stop_desc': str})
+stops = pd.read_csv(path + "stops_T.txt", dtype={'stop_id': str, 'stop_code': str, 'stop_desc': str, 'on_demand': str})     # Włóż "stops_T.txt" zamiast "stops.txt" do rozpakowanego folderu "GTFS_KRK_T". Pliki "stops_A.txt" oraz "stops_M.txt" są obecnie w trakcie tworzenia (zamiast nich użyj domyślnych "stops.txt" z plików .zip i zmień tutaj na "stops.txt").
 calendar = pd.read_csv(path + "calendar.txt")
 
 dni_powszednie = "Dni powszednie"     # Możesz zmienić "Dni powszednie" na "Dzień powszedni" dla styli sprzed 2022 roku (to-2015 oraz to-2022)
 soboty = "Soboty"
 swieta = "Święta"
 
-def build_service_day_map(calendar_dates_path="calendar_dates.txt"):
-    df = pd.read_csv(calendar_dates_path, dtype={'service_id': str})
-    
-    active_dates = df[df['exception_type'] == 1].copy()
-    
-    active_dates['dt'] = pd.to_datetime(active_dates['date'].astype(str), format='%Y%m%d')
-    active_dates['dow'] = active_dates['dt'].dt.dayofweek
-    
+def build_service_day_map(calendar_dates_path="calendar_dates.txt", calendar_path="calendar.txt"):
     service_map = {}
     
-    for service_id, group in active_dates.groupby('service_id'):
-        sid_upper = str(service_id).upper()
-        
-        if sid_upper.endswith('_SO'):
-            service_map[service_id] = "Soboty"
-            continue
-        elif sid_upper.endswith('_SW'):
-            service_map[service_id] = "Święta"
-            continue
-        elif any(sid_upper.endswith(suf) for suf in ['_PO', '_PN', '_WT', '_ŚR', '_CZ', '_PT']):
-            service_map[service_id] = "Dni powszednie"
-            continue
+    try:
+        df_cal = pd.read_csv(calendar_path, dtype={'service_id': str})
+        for _, row in df_cal.iterrows():
+            sid_str = str(row['service_id']).strip()
 
-        dows = group['dow'].tolist()
-        
-        weekdays = sum(1 for d in dows if d < 5)
-        saturdays = sum(1 for d in dows if d == 5)
-        sundays = sum(1 for d in dows if d == 6)
-        
-        if saturdays > weekdays and saturdays >= sundays:
-            service_map[service_id] = soboty
-        elif sundays > weekdays and sundays > saturdays:
-            service_map[service_id] = swieta
-        else:
-            service_map[service_id] = dni_powszednie
-            
+            has_weekdays = any(row.get(day, 0) == 1 for day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'])
+            has_saturday = row.get('saturday', 0) == 1
+            has_sunday = row.get('sunday', 0) == 1
+
+            if has_sunday and not has_weekdays:
+                service_map[sid_str] = swieta
+            elif has_saturday and not has_weekdays:
+                service_map[sid_str] = soboty
+            elif has_weekdays:
+                service_map[sid_str] = dni_powszednie
+    except FileNotFoundError:
+        pass
+
+    try:
+        df_dates = pd.read_csv(calendar_dates_path, dtype={'service_id': str})
+        active_dates = df_dates[df_dates['exception_type'] == 1].copy()
+
+        if not active_dates.empty:
+            active_dates['dt'] = pd.to_datetime(active_dates['date'].astype(str), format='%Y%m%d')
+            active_dates['dow'] = active_dates['dt'].dt.dayofweek
+
+            for service_id, group in active_dates.groupby('service_id'):
+                sid_str = str(service_id).strip()
+                sid_upper = sid_str.upper()
+
+                if sid_upper.endswith('_SO'):
+                    service_map[sid_str] = soboty
+                    continue
+                elif sid_upper.endswith('_SW') or sid_upper.endswith('_ND'):
+                    service_map[sid_str] = swieta
+                    continue
+                elif any(sid_upper.endswith(suf) for suf in ['_PO', '_PN', '_WT', '_ŚR', '_SR', '_CZ', '_PT']):
+                    service_map[sid_str] = dni_powszednie
+                    continue
+
+                if sid_str in service_map:
+                    continue
+
+                dows = group['dow'].tolist()
+                
+                weekdays = sum(1 for d in dows if d < 5)   # Mon-Fri
+                saturdays = sum(1 for d in dows if d == 5)  # Sat
+                sundays = sum(1 for d in dows if d == 6)    # Sun
+
+                if saturdays > weekdays and saturdays >= sundays:
+                    service_map[sid_str] = soboty
+                elif sundays > weekdays and sundays >= saturdays:
+                    service_map[sid_str] = swieta
+                elif sundays > 0 and weekdays == 0:
+                    service_map[sid_str] = swieta
+                else:
+                    service_map[sid_str] = dni_powszednie
+
+    except FileNotFoundError:
+        pass
+
     return service_map
 
-SERVICE_DAY_MAP = build_service_day_map(path + "calendar_dates.txt")
+SERVICE_DAY_MAP = build_service_day_map(path + "calendar_dates.txt", path + "calendar.txt")
 
 def map_service_to_day_type(service_id):
     return SERVICE_DAY_MAP.get(str(service_id), dni_powszednie)
@@ -121,14 +149,54 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
     trips_clean = trips.copy()
     trips_clean['route_id'] = trips_clean['route_id'].astype(str).str.strip()
     trips_clean['trip_id'] = trips_clean['trip_id'].astype(str).str.strip()
-    
-    line_trips = trips_clean[trips_clean['route_id'] == route_id]
+
+    line_trips = trips_clean[trips_clean['route_id'] == route_id].copy()
     if line_trips.empty:
         return {}
+
+    def is_depot_headsign(headsign):
+        if pd.isna(headsign):
+            return False
+        hs = str(headsign).strip().lower()
+        return "zajezdnia" in hs or "zaj." in hs
+
+    def extract_trip_num(tid):
+        parts = str(tid).split('_trip_')
+        if len(parts) > 1:
+            try:
+                return int(parts[1].split('_')[0])
+            except ValueError:
+                return 0
+        return 0
+
+    line_trips['trip_num'] = line_trips['trip_id'].apply(extract_trip_num)
+    excluded_trip_ids = set()
+
+    for block_id, group in line_trips.groupby('block_id'):
+        depot_trips_count = group['trip_headsign'].apply(is_depot_headsign).sum()
+
+        if depot_trips_count > 1:
+            continue
+
+        sorted_group = group.sort_values('trip_num')
+        last_trip = sorted_group.iloc[-1]
+
+        if is_depot_headsign(last_trip.get('trip_headsign')):
+            first_trip = sorted_group.iloc[0]
+            excluded_trip_ids.add(first_trip['trip_id'])
+            excluded_trip_ids.add(last_trip['trip_id'])
+
+    line_trips = line_trips[~line_trips['trip_id'].isin(excluded_trip_ids)]
+    if line_trips.empty:
+        return {}
+
+    valid_trip_ids = set(line_trips['trip_id'])
 
     st_clean = stop_times.copy()
     st_clean['trip_id'] = st_clean['trip_id'].astype(str).str.strip()
     st_clean['stop_id'] = st_clean['stop_id'].astype(str).str.strip()
+
+    st_clean = st_clean[st_clean['trip_id'].isin(valid_trip_ids)]
 
     stops_clean = stops.copy()
     stops_clean['stop_id'] = stops_clean['stop_id'].astype(str).str.strip()
