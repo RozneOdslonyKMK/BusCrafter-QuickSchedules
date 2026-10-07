@@ -240,14 +240,28 @@ def generate_line_json(line_number, day_mode="all", custom_times=None):
         for _, stop_row in sample_trip_stops.iterrows():
             stop_id = str(stop_row['stop_id']).strip()
             stop_code = str(stop_row.get('stop_code', stop_id)).strip()
-            stop_name = str(stop_row['stop_name']).strip()
-            stop_on_demand = str(stop_row['on_demand']).strip()
+            raw_stop_name = str(stop_row.get('stop_name', '')).strip()
+            raw_desc = str(stop_row.get('stop_desc', '')).strip() if pd.notna(stop_row.get('stop_desc')) else ""
+
+            if 'on_demand' in stop_row and pd.notna(stop_row['on_demand']):
+                val = str(stop_row['on_demand']).strip()
+                stop_on_demand = val in ['1', 'true', 'True']
+            elif raw_desc != "" and "(nż)" in raw_desc.lower():
+                stop_on_demand = True
+            elif "(nż)" in raw_stop_name.lower():
+                stop_on_demand = True
+            else:
+                stop_on_demand = False
+
+            clean_stop_name = raw_stop_name.replace("(nż)", "").replace("(NŻ)", "").strip()
+
+            if raw_desc != "" and raw_desc.lower() != "(nż)":
+                stop_desc = raw_desc.split('.')[0].strip().zfill(2)
+            else:
+                stop_desc = ""
+
+            full_stop_name = f"{clean_stop_name} {stop_desc}".strip() if stop_desc else clean_stop_name
             
-            raw_desc = stop_row.get('stop_desc', '')
-            stop_desc = "" if pd.isna(raw_desc) else str(raw_desc).split('.')[0].strip().zfill(2)
-
-            full_stop_name = f"{stop_name} {stop_desc}".strip() if stop_desc else stop_name
-
             if dir_custom_times and (stop_order - 1) < len(dir_custom_times):
                 travel_time = str(dir_custom_times[stop_order - 1])
             else:
