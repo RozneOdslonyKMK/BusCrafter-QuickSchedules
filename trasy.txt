@@ -575,7 +575,7 @@
 82
     Stała
         BRONOWICE MAŁE - Bronowicka, Podchorążych, Królewska, Karmelicka, Basztowa, Lubicz, Rakowicka - CMENTARZ RAKOWICKI
-        CMENTARZ RAKOWICKI - Rakowicka, Basztowa, Dunajewskiego, Karmelicka, Królewska, Podchorążych, Bronowicka - BRONOWICE MAŁE
+        CMENTARZ RAKOWICKI - Rakowicka, Lubicz, Basztowa, Dunajewskiego, Karmelicka, Królewska, Podchorążych, Bronowicka - BRONOWICE MAŁE
 
 83
     Stała
@@ -2199,6 +2199,16 @@
     02.08.2026
         CZERWONE MAKI P+R - Czerwone Maki, Bobrzyńskiego, Grota-Roweckiego, Rostworowskiego, Kobierzyńska - ROSTWOROWSKIEGO
         ROSTWOROWSKIEGO - Kobierzyńska, Lubostroń, Czerwone Maki - CZERWONE MAKI P+R
+
+883
+    31.10.2025 - 02.11.2025
+        SKAWINA - Skawina ul. Jana Pawła II, Skawina ul. Popiełuszki, Skawina ul. Korabnicka, Skawina ul. Wyspiańskiego - SKAWINA CMENTARZ KOMUNALNY
+        SKAWINA CMENTARZ KOMUNALNY - Skawina ul. Wyspiańskiego, Skawina ul. Kopernika, Skawina ul. Popiełuszki, Skawina ul. Jana Pawła II - SKAWINA
+
+886
+    31.10.2025 - 01.11.2025
+        MISTRZEJOWICE - Jancarza, Srebrnych Orłów, Mikołajczyka, Broniewskiego, al. Andersa, Kocmyrzowska, Architektów - WZGÓRZA KRZESŁAWICKIE
+        WZGÓRZA KRZESŁAWICKIE - Architektów, Poległych w Krzesławicach, Kocmyrzowska, al. Andersa, Mikołajczyka, Srebrnych Orłów, Jancarza - MISTRZEJOWICE
 
 902
     Stała
