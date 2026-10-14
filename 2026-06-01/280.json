@@ -2171,7 +2171,7 @@
                     "23": {
                         "name": "Witkowicka 02",
                         "code": "914-02",
-                        "on-demand": false,
+                        "on-demand": true,
                         "time": "29",
                         "departures": {
                             "Dni powszednie": {
@@ -2588,7 +2588,7 @@
                     "3": {
                         "name": "Witkowicka 01",
                         "code": "914-01",
-                        "on-demand": false,
+                        "on-demand": true,
                         "time": "2",
                         "departures": {
                             "Dni powszednie": {
