@@ -2163,14 +2163,12 @@
                             }
                         },
                         "departure-merges": {}
-                    }
-                },
-                "tariff-zone": {
-                    "name": "GRANICA TARYF.",
-                    "time": "0"
-                },
-                "zone-2": { 
+                    },
                     "22": {
+                        "name": "GRANICA TARYF.",
+                        "time": "0"
+                    },
+                    "23": {
                         "name": "Witkowicka 02",
                         "code": "914-02",
                         "on-demand": false,
@@ -2272,7 +2270,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "23": {
+                    "24": {
                         "name": "Górka Narodowa P+R 04",
                         "code": "434-04",
                         "on-demand": false,
@@ -2688,14 +2686,12 @@
                             }
                         },
                         "departure-merges": {}
-                    }
-                },
-                "tariff-zone": {
-                    "name": "GRANICA TARYF.",
-                    "time": "0"
-                },
-                "zone-2": {
+                    },
                     "4": {
+                        "name": "GRANICA TARYF.",
+                        "time": "0"
+                    },
+                    "5": {
                         "name": "Węgrzce Starostwo Powiatowe 01",
                         "code": "2146-01",
                         "on-demand": false,
@@ -2797,7 +2793,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "5": {
+                    "6": {
                         "name": "Węgrzce A1 03",
                         "code": "2147-03",
                         "on-demand": false,
@@ -2899,7 +2895,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "6": {
+                    "7": {
                         "name": "Bibice Kościuszki 01",
                         "code": "2176-01",
                         "on-demand": false,
@@ -3001,7 +2997,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "7": {
+                    "8": {
                         "name": "Bibice Rynek 01",
                         "code": "2177-01",
                         "on-demand": false,
@@ -3103,7 +3099,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "8": {
+                    "9": {
                         "name": "Bibice Mokra 02",
                         "code": "2277-02",
                         "on-demand": false,
@@ -3205,7 +3201,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "9": {
+                    "10": {
                         "name": "Bibice Na Czekaj 01",
                         "code": "2148-01",
                         "on-demand": true,
@@ -3307,7 +3303,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "10": {
+                    "11": {
                         "name": "Michałowice Komora 03",
                         "code": "2149-03",
                         "on-demand": true,
@@ -3409,7 +3405,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "11": {
+                    "12": {
                         "name": "Michałowice Banasiówka 01",
                         "code": "2364-01",
                         "on-demand": true,
@@ -3511,7 +3507,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "12": {
+                    "13": {
                         "name": "Michałowice Kwiaty Polne 01",
                         "code": "2368-01",
                         "on-demand": true,
@@ -3613,7 +3609,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "13": {
+                    "14": {
                         "name": "Michałowice Brzozowa 01",
                         "code": "2365-01",
                         "on-demand": true,
@@ -3715,7 +3711,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "14": {
+                    "15": {
                         "name": "Michałowice Jana Pawła II 03",
                         "code": "2366-03",
                         "on-demand": true,
@@ -3817,7 +3813,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "15": {
+                    "16": {
                         "name": "Michałowice Las Michałowski 01",
                         "code": "2675-01",
                         "on-demand": false,
@@ -3919,7 +3915,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "16": {
+                    "17": {
                         "name": "Górna Wieś Pętla 01",
                         "code": "2145-01",
                         "on-demand": false,
@@ -4021,7 +4017,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "17": {
+                    "18": {
                         "name": "Wola Zachariaszowska Słoneczna 02",
                         "code": "2144-02",
                         "on-demand": false,
@@ -4123,7 +4119,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "18": {
+                    "19": {
                         "name": "Wola Zachariaszowska Szkoła 02",
                         "code": "2143-02",
                         "on-demand": false,
@@ -4225,7 +4221,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "19": {
+                    "20": {
                         "name": "Garlica Duchowna Rozjazd 02",
                         "code": "2674-02",
                         "on-demand": false,
@@ -4327,7 +4323,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "20": {
+                    "21": {
                         "name": "Garliczka Chochół 02",
                         "code": "2673-02",
                         "on-demand": true,
@@ -4429,7 +4425,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "21": {
+                    "22": {
                         "name": "Owczary Górna 02",
                         "code": "2672-02",
                         "on-demand": true,
@@ -4531,7 +4527,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "22": {
+                    "23": {
                         "name": "Owczary Gajowa 02",
                         "code": "2671-02",
                         "on-demand": true,
@@ -4633,7 +4629,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "23": {
+                    "24": {
                         "name": "Owczary Spacerowa 02",
                         "code": "2670-02",
                         "on-demand": true,
@@ -4735,7 +4731,7 @@
                         },
                         "departure-merges": {}
                     },
-                    "24": {
+                    "25": {
                         "name": "Owczary Pętla 01",
                         "code": "2136-01",
                         "on-demand": false,
